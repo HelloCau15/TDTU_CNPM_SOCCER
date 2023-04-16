@@ -1,0 +1,70 @@
+F:\OneDrive\Desktop\SanBong\QuanLy\QuanLy\bin\Debug\QuanLy.exe.config
+F:\OneDrive\Desktop\SanBong\QuanLy\QuanLy\bin\Debug\QuanLy.exe
+F:\OneDrive\Desktop\SanBong\QuanLy\QuanLy\bin\Debug\QuanLy.pdb
+F:\OneDrive\Desktop\SanBong\QuanLy\QuanLy\obj\Debug\QuanLy.csproj.AssemblyReference.cache
+F:\OneDrive\Desktop\SanBong\QuanLy\QuanLy\obj\Debug\QuanLy.csproj.SuggestedBindingRedirects.cache
+F:\OneDrive\Desktop\SanBong\QuanLy\QuanLy\obj\Debug\QuanLy.DangNhap.resources
+F:\OneDrive\Desktop\SanBong\QuanLy\QuanLy\obj\Debug\QuanLy.Properties.Resources.resources
+F:\OneDrive\Desktop\SanBong\QuanLy\QuanLy\obj\Debug\QuanLy.csproj.GenerateResource.cache
+F:\OneDrive\Desktop\SanBong\QuanLy\QuanLy\obj\Debug\QuanLy.csproj.CoreCompileInputs.cache
+F:\OneDrive\Desktop\SanBong\QuanLy\QuanLy\obj\Debug\QuanLy.exe
+F:\OneDrive\Desktop\SanBong\QuanLy\QuanLy\obj\Debug\QuanLy.pdb
+F:\OneDrive\Desktop\SanBong\QuanLy\QuanLy\obj\Debug\QuanLy.DangKi.resources
+F:\OneDrive\Desktop\SanBong\QuanLy\QuanLy\obj\Debug\QuanLy.Admin.resources
+F:\OneDrive\Desktop\SanBong\QuanLy\QuanLy\obj\Debug\QuanLy.Users.resources
+C:\Users\vanqu\Desktop\SanBong\QuanLy\QuanLy\bin\Debug\QuanLy.exe.config
+C:\Users\vanqu\Desktop\SanBong\QuanLy\QuanLy\bin\Debug\QuanLy.exe
+C:\Users\vanqu\Desktop\SanBong\QuanLy\QuanLy\bin\Debug\QuanLy.pdb
+C:\Users\vanqu\Desktop\SanBong\QuanLy\QuanLy\obj\Debug\QuanLy.csproj.AssemblyReference.cache
+C:\Users\vanqu\Desktop\SanBong\QuanLy\QuanLy\obj\Debug\QuanLy.csproj.SuggestedBindingRedirects.cache
+C:\Users\vanqu\Desktop\SanBong\QuanLy\QuanLy\obj\Debug\QuanLy.Admin.resources
+C:\Users\vanqu\Desktop\SanBong\QuanLy\QuanLy\obj\Debug\QuanLy.DangKi.resources
+C:\Users\vanqu\Desktop\SanBong\QuanLy\QuanLy\obj\Debug\QuanLy.DangNhap.resources
+C:\Users\vanqu\Desktop\SanBong\QuanLy\QuanLy\obj\Debug\QuanLy.Properties.Resources.resources
+C:\Users\vanqu\Desktop\SanBong\QuanLy\QuanLy\obj\Debug\QuanLy.Users.resources
+C:\Users\vanqu\Desktop\SanBong\QuanLy\QuanLy\obj\Debug\QuanLy.csproj.GenerateResource.cache
+C:\Users\vanqu\Desktop\SanBong\QuanLy\QuanLy\obj\Debug\QuanLy.csproj.CoreCompileInputs.cache
+C:\Users\vanqu\Desktop\SanBong\QuanLy\QuanLy\obj\Debug\QuanLy.exe
+C:\Users\vanqu\Desktop\SanBong\QuanLy\QuanLy\obj\Debug\QuanLy.pdb
+F:\OneDrive\Desktop\SanBong\New folder\QuanLy\QuanLy\bin\Debug\QuanLy.exe.config
+F:\OneDrive\Desktop\SanBong\New folder\QuanLy\QuanLy\bin\Debug\QuanLy.exe
+F:\OneDrive\Desktop\SanBong\New folder\QuanLy\QuanLy\bin\Debug\QuanLy.pdb
+F:\OneDrive\Desktop\SanBong\New folder\QuanLy\QuanLy\obj\Debug\QuanLy.csproj.AssemblyReference.cache
+F:\OneDrive\Desktop\SanBong\New folder\QuanLy\QuanLy\obj\Debug\QuanLy.csproj.SuggestedBindingRedirects.cache
+F:\OneDrive\Desktop\SanBong\New folder\QuanLy\QuanLy\obj\Debug\QuanLy.Admin.resources
+F:\OneDrive\Desktop\SanBong\New folder\QuanLy\QuanLy\obj\Debug\QuanLy.DangKi.resources
+F:\OneDrive\Desktop\SanBong\New folder\QuanLy\QuanLy\obj\Debug\QuanLy.DangNhap.resources
+F:\OneDrive\Desktop\SanBong\New folder\QuanLy\QuanLy\obj\Debug\QuanLy.Properties.Resources.resources
+F:\OneDrive\Desktop\SanBong\New folder\QuanLy\QuanLy\obj\Debug\QuanLy.Users.resources
+F:\OneDrive\Desktop\SanBong\New folder\QuanLy\QuanLy\obj\Debug\QuanLy.csproj.GenerateResource.cache
+F:\OneDrive\Desktop\SanBong\New folder\QuanLy\QuanLy\obj\Debug\QuanLy.csproj.CoreCompileInputs.cache
+F:\OneDrive\Desktop\SanBong\New folder\QuanLy\QuanLy\obj\Debug\QuanLy.exe
+F:\OneDrive\Desktop\SanBong\New folder\QuanLy\QuanLy\obj\Debug\QuanLy.pdb
+C:\Users\vennd\OneDrive\Desktop\QuanLy\QuanLy\bin\Debug\QuanLy.exe.config
+C:\Users\vennd\OneDrive\Desktop\QuanLy\QuanLy\bin\Debug\QuanLy.exe
+C:\Users\vennd\OneDrive\Desktop\QuanLy\QuanLy\bin\Debug\QuanLy.pdb
+C:\Users\vennd\OneDrive\Desktop\QuanLy\QuanLy\obj\Debug\QuanLy.csproj.AssemblyReference.cache
+C:\Users\vennd\OneDrive\Desktop\QuanLy\QuanLy\obj\Debug\QuanLy.csproj.SuggestedBindingRedirects.cache
+C:\Users\vennd\OneDrive\Desktop\QuanLy\QuanLy\obj\Debug\QuanLy.Admin.resources
+C:\Users\vennd\OneDrive\Desktop\QuanLy\QuanLy\obj\Debug\QuanLy.DangKi.resources
+C:\Users\vennd\OneDrive\Desktop\QuanLy\QuanLy\obj\Debug\QuanLy.DangNhap.resources
+C:\Users\vennd\OneDrive\Desktop\QuanLy\QuanLy\obj\Debug\QuanLy.Properties.Resources.resources
+C:\Users\vennd\OneDrive\Desktop\QuanLy\QuanLy\obj\Debug\QuanLy.Users.resources
+C:\Users\vennd\OneDrive\Desktop\QuanLy\QuanLy\obj\Debug\QuanLy.csproj.GenerateResource.cache
+C:\Users\vennd\OneDrive\Desktop\QuanLy\QuanLy\obj\Debug\QuanLy.csproj.CoreCompileInputs.cache
+C:\Users\vennd\OneDrive\Desktop\QuanLy\QuanLy\obj\Debug\QuanLy.exe
+C:\Users\vennd\OneDrive\Desktop\QuanLy\QuanLy\obj\Debug\QuanLy.pdb
+C:\Users\vennd\OneDrive\Desktop\QuanLy - Copy\QuanLy\bin\Debug\QuanLy.exe.config
+C:\Users\vennd\OneDrive\Desktop\QuanLy - Copy\QuanLy\bin\Debug\QuanLy.exe
+C:\Users\vennd\OneDrive\Desktop\QuanLy - Copy\QuanLy\bin\Debug\QuanLy.pdb
+C:\Users\vennd\OneDrive\Desktop\QuanLy - Copy\QuanLy\obj\Debug\QuanLy.csproj.AssemblyReference.cache
+C:\Users\vennd\OneDrive\Desktop\QuanLy - Copy\QuanLy\obj\Debug\QuanLy.csproj.SuggestedBindingRedirects.cache
+C:\Users\vennd\OneDrive\Desktop\QuanLy - Copy\QuanLy\obj\Debug\QuanLy.Admin.resources
+C:\Users\vennd\OneDrive\Desktop\QuanLy - Copy\QuanLy\obj\Debug\QuanLy.DangKi.resources
+C:\Users\vennd\OneDrive\Desktop\QuanLy - Copy\QuanLy\obj\Debug\QuanLy.DangNhap.resources
+C:\Users\vennd\OneDrive\Desktop\QuanLy - Copy\QuanLy\obj\Debug\QuanLy.Properties.Resources.resources
+C:\Users\vennd\OneDrive\Desktop\QuanLy - Copy\QuanLy\obj\Debug\QuanLy.Users.resources
+C:\Users\vennd\OneDrive\Desktop\QuanLy - Copy\QuanLy\obj\Debug\QuanLy.csproj.GenerateResource.cache
+C:\Users\vennd\OneDrive\Desktop\QuanLy - Copy\QuanLy\obj\Debug\QuanLy.csproj.CoreCompileInputs.cache
+C:\Users\vennd\OneDrive\Desktop\QuanLy - Copy\QuanLy\obj\Debug\QuanLy.exe
+C:\Users\vennd\OneDrive\Desktop\QuanLy - Copy\QuanLy\obj\Debug\QuanLy.pdb
