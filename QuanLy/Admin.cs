@@ -703,24 +703,15 @@ namespace QuanLy
             }
         }
 
-        private void label12_Click(object sender, EventArgs e)
+        private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
-        }
-
-        private void clb1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void matd_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tablekq_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
+            if (((TabControl)sender).SelectedTab == tabPage7)
+            {
+                DangNhap dn = new DangNhap();
+                this.Hide();
+                dn.ShowDialog();
+                this.Close();
+            }
         }
     }
 }

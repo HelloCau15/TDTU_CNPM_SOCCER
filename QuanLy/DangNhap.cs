@@ -17,7 +17,6 @@ namespace QuanLy
             int m = tk.DangNhap(tdn.Text, mk.Text);
             if (m != -1)
             {
-                MessageBox.Show("Đăng nhập thành công");
                 if (m == 1)
                 {
                     Admin ad = new Admin();
