@@ -127,10 +127,10 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::QuanLy.Properties.Resources.images;
-            this.pictureBox1.Location = new System.Drawing.Point(65, 0);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(53, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(405, 230);
+            this.pictureBox1.Size = new System.Drawing.Size(422, 230);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
@@ -138,19 +138,19 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(429, 302);
+            this.pictureBox2.Location = new System.Drawing.Point(440, 305);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(41, 34);
+            this.pictureBox2.Size = new System.Drawing.Size(30, 31);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 93;
             this.pictureBox2.TabStop = false;
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::QuanLy.Properties.Resources.lockkey;
-            this.pictureBox3.Location = new System.Drawing.Point(429, 351);
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(440, 354);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(41, 34);
+            this.pictureBox3.Size = new System.Drawing.Size(30, 27);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 94;
             this.pictureBox3.TabStop = false;
