@@ -134,9 +134,15 @@ namespace QuanLy
             }
         }
 
-        private void tablekq_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            if (((TabControl)sender).SelectedTab == tabPage5)
+            {
+                DangNhap dn = new DangNhap();
+                this.Hide();
+                dn.ShowDialog();
+                this.Close();
+            }
         }
     }
 }

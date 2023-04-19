@@ -96,3 +96,17 @@ C:\Users\vennd\Downloads\TDTU_CNPM_SOCCER\TDTU_CNPM_SOCCER\QuanLy\obj\Debug\Quan
 C:\Users\vennd\Downloads\TDTU_CNPM_SOCCER\TDTU_CNPM_SOCCER\QuanLy\obj\Debug\QuanLy.Users.resources
 C:\Users\vennd\Downloads\TDTU_CNPM_SOCCER\TDTU_CNPM_SOCCER\QuanLy\obj\Debug\QuanLy.csproj.GenerateResource.cache
 C:\Users\vennd\Downloads\TDTU_CNPM_SOCCER\TDTU_CNPM_SOCCER\QuanLy\obj\Debug\QuanLy.csproj.CoreCompileInputs.cache
+C:\Users\vennd\OneDrive\Desktop\TDTU_CNPM_SOCCER - Copy\QuanLy\bin\Debug\QuanLy.exe.config
+C:\Users\vennd\OneDrive\Desktop\TDTU_CNPM_SOCCER - Copy\QuanLy\bin\Debug\QuanLy.exe
+C:\Users\vennd\OneDrive\Desktop\TDTU_CNPM_SOCCER - Copy\QuanLy\bin\Debug\QuanLy.pdb
+C:\Users\vennd\OneDrive\Desktop\TDTU_CNPM_SOCCER - Copy\QuanLy\obj\Debug\QuanLy.csproj.AssemblyReference.cache
+C:\Users\vennd\OneDrive\Desktop\TDTU_CNPM_SOCCER - Copy\QuanLy\obj\Debug\QuanLy.csproj.SuggestedBindingRedirects.cache
+C:\Users\vennd\OneDrive\Desktop\TDTU_CNPM_SOCCER - Copy\QuanLy\obj\Debug\QuanLy.Admin.resources
+C:\Users\vennd\OneDrive\Desktop\TDTU_CNPM_SOCCER - Copy\QuanLy\obj\Debug\QuanLy.DangKi.resources
+C:\Users\vennd\OneDrive\Desktop\TDTU_CNPM_SOCCER - Copy\QuanLy\obj\Debug\QuanLy.DangNhap.resources
+C:\Users\vennd\OneDrive\Desktop\TDTU_CNPM_SOCCER - Copy\QuanLy\obj\Debug\QuanLy.Properties.Resources.resources
+C:\Users\vennd\OneDrive\Desktop\TDTU_CNPM_SOCCER - Copy\QuanLy\obj\Debug\QuanLy.Users.resources
+C:\Users\vennd\OneDrive\Desktop\TDTU_CNPM_SOCCER - Copy\QuanLy\obj\Debug\QuanLy.csproj.GenerateResource.cache
+C:\Users\vennd\OneDrive\Desktop\TDTU_CNPM_SOCCER - Copy\QuanLy\obj\Debug\QuanLy.csproj.CoreCompileInputs.cache
+C:\Users\vennd\OneDrive\Desktop\TDTU_CNPM_SOCCER - Copy\QuanLy\obj\Debug\QuanLy.exe
+C:\Users\vennd\OneDrive\Desktop\TDTU_CNPM_SOCCER - Copy\QuanLy\obj\Debug\QuanLy.pdb

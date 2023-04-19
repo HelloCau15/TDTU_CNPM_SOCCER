@@ -47,5 +47,12 @@ namespace QuanLy
             dk.ShowDialog();
             this.Close();
         }
+
+        
+
+        private void mk_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

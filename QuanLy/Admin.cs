@@ -909,11 +909,7 @@ namespace QuanLy
 
         }
 
-        private void groupBox3_Enter(object sender, EventArgs e)
-        {
-
-        }
-
+      
         private void nsct_TextChanged(object sender, EventArgs e)
         {
 
@@ -1164,11 +1160,7 @@ namespace QuanLy
 
         }
 
-        private void label40_Click(object sender, EventArgs e)
-        {
-
-        }
-
+    
         private void label41_Click(object sender, EventArgs e)
         {
 
