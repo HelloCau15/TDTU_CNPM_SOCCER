@@ -48,11 +48,5 @@ namespace QuanLy
             this.Close();
         }
 
-        
-
-        private void mk_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

@@ -101,7 +101,7 @@ namespace QuanLy
             SaveFileDialog s = new SaveFileDialog();
             if (s.ShowDialog() == DialogResult.OK && tablekq.RowCount > 0)
             {
-                bool export = obj.ToExcel(dt, s.FileName, "Bảng xếp hạng "+cbxcmg.Text, dt.Columns.Count);
+                bool export = obj.ToExcel(dt, s.FileName, "Bảng xếp hạng " + cbxcmg.Text, dt.Columns.Count);
                 MessageBox.Show("Xuất file thành công");
             }
         }

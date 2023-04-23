@@ -87,6 +87,7 @@
             this.label13 = new System.Windows.Forms.Label();
             this.tableclb = new System.Windows.Forms.DataGridView();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.button3 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
@@ -198,6 +199,8 @@
             // 
             // label42
             // 
+            this.label42.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label42.AutoSize = true;
             this.label42.BackColor = System.Drawing.Color.Yellow;
             this.label42.Font = new System.Drawing.Font("Arial Rounded MT Bold", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -208,6 +211,7 @@
             this.label42.Size = new System.Drawing.Size(550, 54);
             this.label42.TabIndex = 102;
             this.label42.Text = "Bảng xếp hạng trận đấu";
+            this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // button29
             // 
@@ -394,6 +398,7 @@
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.Salmon;
+            this.tabPage3.Controls.Add(this.button3);
             this.tabPage3.Controls.Add(this.flowLayoutPanel2);
             this.tabPage3.Controls.Add(this.label8);
             this.tabPage3.Controls.Add(this.button2);
@@ -648,6 +653,8 @@
             // 
             // flowLayoutPanel1
             // 
+            this.flowLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.flowLayoutPanel1.AutoScroll = true;
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.Snow;
             this.flowLayoutPanel1.Controls.Add(this.pictureBox1);
@@ -810,6 +817,15 @@
             this.tabPage5.Text = "Đăng xuất";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(1379, 118);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(141, 43);
+            this.button3.TabIndex = 118;
+            this.button3.Text = "button3";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
             // Users
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -927,5 +943,6 @@
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Button button3;
     }
 }

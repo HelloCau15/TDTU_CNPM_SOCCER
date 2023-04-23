@@ -69,7 +69,6 @@
             this.mk.PasswordChar = '*';
             this.mk.Size = new System.Drawing.Size(395, 42);
             this.mk.TabIndex = 4;
-            this.mk.TextChanged += new System.EventHandler(this.mk_TextChanged);
             // 
             // button1
             // 
