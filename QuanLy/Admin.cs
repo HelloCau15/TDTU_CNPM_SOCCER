@@ -126,7 +126,18 @@ namespace QuanLy
                 this.tablemg.Columns[i].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             }
         }
-
+        public void hienthicbxltd()
+        {
+            ketnoi k = new ketnoi();
+            SqlConnection con = k.GetConnection();
+            string sql2 = "select * from MuaGiai ";
+            System.Data.DataTable tb2 = new System.Data.DataTable();
+            SqlDataAdapter ad2 = new SqlDataAdapter(sql2, con);
+            ad2.Fill(tb2);
+            cbxmgg.DataSource = tb2;
+            cbxmgg.DisplayMember = "TenMuaGiai";
+            cbxmgg.ValueMember = "Id";
+        }
         private void Admin_Load(object sender, EventArgs e)
         {
             hienthisvd();
@@ -135,6 +146,7 @@ namespace QuanLy
             hienthiltd();
             hienthimg();
             hienthitd();
+            hienthicbxltd();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -508,7 +520,7 @@ namespace QuanLy
             }
             else
             {
-                ltd.SuaLTD(int.Parse(maltd.Text), int.Parse(cbx1.SelectedValue.ToString()), int.Parse(cbx2.SelectedValue.ToString()), date.Text, int.Parse(cbxsvd.SelectedValue.ToString()), int.Parse(cbxmg.SelectedValue.ToString()));
+                ltd.SuaLTD(int.Parse(maltd.Text), int.Parse(cbx1.SelectedValue.ToString()), int.Parse(cbx2.SelectedValue.ToString()), date.Text, int.Parse(cbxsv.SelectedValue.ToString()), int.Parse(cbxmg.SelectedValue.ToString()));
                 hienthiltd();
                 MessageBox.Show("Sửa thành công.");
             }
@@ -703,16 +715,7 @@ namespace QuanLy
             }
         }
 
-        private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (((TabControl)sender).SelectedTab == tabPage7)
-            {
-                DangNhap dn = new DangNhap();
-                this.Hide();
-                dn.ShowDialog();
-                this.Close();
-            }
-        }
+
 
         private void groupBox1_Enter(object sender, EventArgs e)
         {
@@ -1194,6 +1197,47 @@ namespace QuanLy
         private void tabPage7_Click(object sender, EventArgs e)
         {
 
+        }
+        public void hienthimgg()
+        {
+            XepHang xh = new XepHang();
+            System.Data.DataTable h = xh.DanhSach(int.Parse(cbxmgg.SelectedValue.ToString()));
+            dataKQ.DataSource = h;
+            for (int i = 0; i < dataKQ.Columns.Count; i++)
+            {
+                this.dataKQ.Columns[i].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            }
+        }
+        private void button21_Click(object sender, EventArgs e)
+        {
+            textmg.Text = "Danh sách kết quả mùa giải " + cbxmgg.Text;
+            hienthimgg();
+        }
+
+        private void button26_Click(object sender, EventArgs e)
+        {
+            XepHang xh = new XepHang();
+            ExportToExcel obj = new ExportToExcel();
+            System.Data.DataTable dt = xh.DanhSach(int.Parse(cbxmgg.SelectedValue.ToString()));
+            dataKQ.DataSource = dt;
+            SaveFileDialog s = new SaveFileDialog();
+            if (s.ShowDialog() == DialogResult.OK && dataKQ.RowCount > 0)
+            {
+                bool export = obj.ToExcel(dt, s.FileName, "Bảng xếp hạng " + cbxmgg.Text, dt.Columns.Count);
+                MessageBox.Show("Xuất file thành công");
+            }
+        }
+
+        private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+            if (((TabControl)sender).SelectedTab == tabPage7)
+                {
+                    DangNhap dn = new DangNhap();
+                    this.Hide();
+                    dn.ShowDialog();
+                    this.Close();
+            }
         }
     }
 }

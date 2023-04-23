@@ -6,9 +6,9 @@ namespace QuanLy.Class
     internal class TaiKhoan
     {
         ketnoi kn = new ketnoi();
-        public void DangKi(string tdn, string mk)
+        public void DangKi(string tdn, string mk,string sdt,string email)
         {
-            string sql = "insert into TaiKhoan values ('" + tdn + "','" + mk + "',2)";
+            string sql = "insert into TaiKhoan values ('" + tdn + "','" + mk + "',2,'"+sdt+"','"+email+"')";
             kn.hamxuly(sql);
         }
         public int DangNhap(string tdn, string mk)

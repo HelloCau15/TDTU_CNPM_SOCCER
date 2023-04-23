@@ -26,6 +26,11 @@ namespace QuanLy
             {
                 MessageBox.Show("Mật khẩu tối thiểu 6 kí tự.");
             }
+            if (sdt.Text.Length > 10 && sdt.Text.Length <10)
+            {
+                MessageBox.Show("Số điện thoại không đúng kiểu.");
+
+            }
             else
             {
                 try
@@ -33,7 +38,7 @@ namespace QuanLy
                     int m = tk.CheckTK(tdn.Text);
                     if (m == -1)
                     {
-                        tk.DangKi(tdn.Text, mk.Text);
+                        tk.DangKi(tdn.Text, mk.Text,sdt.Text,email.Text);
                         MessageBox.Show("Đăng kí thành công.");
                         DangNhap dn = new DangNhap();
                         this.Hide();
@@ -53,5 +58,6 @@ namespace QuanLy
             }
 
         }
+
     }
 }

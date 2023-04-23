@@ -272,7 +272,13 @@ GO
 ALTER TABLE [dbo].[XepHang]  WITH CHECK ADD FOREIGN KEY([IdMuaGiai])
 REFERENCES [dbo].[MuaGiai] ([Id])
 GO
+ALTER TABLE [dbo].TaiKhoan ADD  [Email] nvarchar(250) null
+GO
+ALTER TABLE [dbo].TaiKhoan ADD  [SDT] varchar(10) null
+GO
 USE [master]
 GO
 ALTER DATABASE [QLDB] SET  READ_WRITE 
 GO
+
+
