@@ -188,11 +188,11 @@ SET IDENTITY_INSERT [dbo].[CauThu] OFF
 GO
 SET IDENTITY_INSERT [dbo].[LichThiDau] ON 
 
-INSERT [dbo].[LichThiDau] ([Id], [IdCLB1], [IdCLB2], [NgayThiDau], [IdSVD], [IdMuaGiai]) VALUES (1, 1, 2, CAST(N'2022-12-12T00:00:00.000' AS DateTime), 1, 1)
-INSERT [dbo].[LichThiDau] ([Id], [IdCLB1], [IdCLB2], [NgayThiDau], [IdSVD], [IdMuaGiai]) VALUES (2, 2, 1, CAST(N'2023-04-11T00:00:00.000' AS DateTime), 1, 1)
-INSERT [dbo].[LichThiDau] ([Id], [IdCLB1], [IdCLB2], [NgayThiDau], [IdSVD], [IdMuaGiai]) VALUES (3, 1, 2, CAST(N'2023-04-26T00:00:00.000' AS DateTime), 1, 1)
-INSERT [dbo].[LichThiDau] ([Id], [IdCLB1], [IdCLB2], [NgayThiDau], [IdSVD], [IdMuaGiai]) VALUES (4, 2, 1, CAST(N'2023-04-26T00:00:00.000' AS DateTime), 1, 1)
-INSERT [dbo].[LichThiDau] ([Id], [IdCLB1], [IdCLB2], [NgayThiDau], [IdSVD], [IdMuaGiai]) VALUES (5, 4, 1, CAST(N'2023-04-11T00:00:00.000' AS DateTime), 1, 1)
+INSERT [dbo].[LichThiDau] ([Id], [IdCLB1], [IdCLB2], [NgayThiDau], [IdSVD], [IdMuaGiai]) VALUES (1, 1, 2, CAST(N'2023-08-28T00:00:00.000' AS DateTime), 1, 1)
+INSERT [dbo].[LichThiDau] ([Id], [IdCLB1], [IdCLB2], [NgayThiDau], [IdSVD], [IdMuaGiai]) VALUES (2, 2, 1, CAST(N'2023-08-27T00:00:00.000' AS DateTime), 1, 1)
+INSERT [dbo].[LichThiDau] ([Id], [IdCLB1], [IdCLB2], [NgayThiDau], [IdSVD], [IdMuaGiai]) VALUES (3, 1, 2, CAST(N'2023-08-26T00:00:00.000' AS DateTime), 1, 1)
+INSERT [dbo].[LichThiDau] ([Id], [IdCLB1], [IdCLB2], [NgayThiDau], [IdSVD], [IdMuaGiai]) VALUES (4, 2, 1, CAST(N'2023-08-30T00:00:00.000' AS DateTime), 1, 1)
+INSERT [dbo].[LichThiDau] ([Id], [IdCLB1], [IdCLB2], [NgayThiDau], [IdSVD], [IdMuaGiai]) VALUES (5, 4, 1, CAST(N'2023-08-29T00:00:00.000' AS DateTime), 1, 1)
 SET IDENTITY_INSERT [dbo].[LichThiDau] OFF
 GO
 SET IDENTITY_INSERT [dbo].[MuaGiai] ON 
@@ -275,8 +275,10 @@ GO
 ALTER TABLE [dbo].[XepHang]  WITH CHECK ADD FOREIGN KEY([IdMuaGiai])
 REFERENCES [dbo].[MuaGiai] ([Id])
 GO
-ALTER TABLE [dbo].TaiKhoan ADD  [Email] nvarchar(250) null
+--ALTER TABLE [dbo].TaiKhoan ADD  [Email] nvarchar(250) null
+--GO
+--ALTER TABLE [dbo].TaiKhoan ADD  [SDT] varchar(10) null
+--GO
+ALTER TABLE [dbo].[LichThiDau]
+ADD CONSTRAINT DateCheck CHECK (NgayThiDau >= CAST(GETDATE() AS DATE))
 GO
-ALTER TABLE [dbo].TaiKhoan ADD  [SDT] varchar(10) null
-GO
-

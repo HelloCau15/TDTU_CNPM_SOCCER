@@ -1068,7 +1068,8 @@ namespace QuanLy
 
         private void date_ValueChanged(object sender, EventArgs e)
         {
-
+            DateTime currentDate = DateTime.Now;
+            date.MinDate = currentDate;
         }
 
         private void label26_Click(object sender, EventArgs e)
