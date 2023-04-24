@@ -9,7 +9,7 @@ namespace QuanLy
         public SqlConnection GetConnection()
         {
             SqlConnection con;
-            string sql = @"Data Source=.;Initial Catalog=ChaoCau;Integrated Security=True";
+            string sql = @"Data Source=.;Initial Catalog=QLDB;Integrated Security=True";
             con = new SqlConnection(sql);
             return con;
         }

@@ -51,7 +51,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.ltd = new System.Windows.Forms.DataGridView();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.button3 = new System.Windows.Forms.Button();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
@@ -417,7 +416,6 @@
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.Salmon;
-            this.tabPage3.Controls.Add(this.button3);
             this.tabPage3.Controls.Add(this.flowLayoutPanel2);
             this.tabPage3.Controls.Add(this.label8);
             this.tabPage3.Controls.Add(this.button2);
@@ -432,15 +430,6 @@
             this.tabPage3.Size = new System.Drawing.Size(1917, 1127);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Danh sách cầu thủ";
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(1379, 118);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(141, 43);
-            this.button3.TabIndex = 118;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel2
             // 
@@ -1129,7 +1118,6 @@
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.TabPage tabPage6;
         private System.Windows.Forms.GroupBox ChangePass;
         private System.Windows.Forms.Button btn_ChangePass;

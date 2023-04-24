@@ -3,6 +3,7 @@ using Quanlysanbong;
 using System;
 using System.Data;
 using System.Data.SqlClient;
+using System.Globalization;
 using System.Windows.Forms;
 
 namespace QuanLy
@@ -331,10 +332,32 @@ namespace QuanLy
             }
             else
             {
-                ct.ThemCT(htct.Text, qqct.Text, int.Parse(nsct.Text), int.Parse(aoct.Text), int.Parse(cbxclb.SelectedValue.ToString()));
-                htct.Text = ""; nsct.Text = ""; aoct.Text = ""; qqct.Text = "";
-                hienthict();
-                MessageBox.Show("Thêm mới thành công.");
+                string namsinhText = nsct.Text;
+
+                // Kiểm tra xem chuỗi năm sinh có hợp lệ hay không và gán giá trị vào biến namsinh
+                if (!DateTime.TryParseExact(namsinhText, "yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime namsinh))
+                {
+                    MessageBox.Show("Năm sinh không hợp lệ");
+                }
+                else
+                {
+                    // Kiểm tra năm sinh
+                    int age = DateTime.Today.Year - namsinh.Year;
+
+                    if (age < 16 || age > 40)
+                    {
+                        // Nếu năm sinh dưới 16 hoặc trên 40 thì hiển thị thông báo lỗi
+                        MessageBox.Show("Năm sinh không hợp lệ");
+                    }
+                    else
+                    {
+                        // Nếu năm sinh hợp lệ thì tiếp tục thực hiện các xử lý khác
+                        ct.ThemCT(htct.Text, qqct.Text, int.Parse(nsct.Text), int.Parse(aoct.Text), int.Parse(cbxclb.SelectedValue.ToString()));
+                        htct.Text = ""; nsct.Text = ""; aoct.Text = ""; qqct.Text = "";
+                        hienthict();
+                        MessageBox.Show("Thêm mới thành công.");
+                    }
+                }
             }
         }
 
@@ -488,7 +511,7 @@ namespace QuanLy
         private void button17_Click(object sender, EventArgs e)
         {
             ExportToExcel obj = new ExportToExcel();
-            DataTable dt = ct.DanhSach();
+            DataTable dt = mg.DanhSach();
             tablemg.DataSource = dt;
             SaveFileDialog s = new SaveFileDialog();
             if (s.ShowDialog() == DialogResult.OK && tablemg.RowCount > 0)
