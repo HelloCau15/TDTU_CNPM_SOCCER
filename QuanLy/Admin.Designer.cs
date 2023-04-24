@@ -179,15 +179,6 @@
             this.label44 = new System.Windows.Forms.Label();
             this.tablekq = new System.Windows.Forms.DataGridView();
             this.tabPage8 = new System.Windows.Forms.TabPage();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.button21 = new System.Windows.Forms.Button();
-            this.label9 = new System.Windows.Forms.Label();
-            this.dataKQ = new System.Windows.Forms.DataGridView();
-            this.cbxmgg = new System.Windows.Forms.ComboBox();
-            this.button26 = new System.Windows.Forms.Button();
-            this.textmg = new System.Windows.Forms.Label();
-            this.tabPage7 = new System.Windows.Forms.TabPage();
             this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox33 = new System.Windows.Forms.PictureBox();
             this.pictureBox34 = new System.Windows.Forms.PictureBox();
@@ -202,6 +193,30 @@
             this.pictureBox43 = new System.Windows.Forms.PictureBox();
             this.pictureBox44 = new System.Windows.Forms.PictureBox();
             this.pictureBox45 = new System.Windows.Forms.PictureBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.button21 = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
+            this.dataKQ = new System.Windows.Forms.DataGridView();
+            this.cbxmgg = new System.Windows.Forms.ComboBox();
+            this.button26 = new System.Windows.Forms.Button();
+            this.textmg = new System.Windows.Forms.Label();
+            this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.ChangePass = new System.Windows.Forms.GroupBox();
+            this.btn_ChangePass = new System.Windows.Forms.Button();
+            this.txtbRe_Pass = new System.Windows.Forms.TextBox();
+            this.txtbxNewPass = new System.Windows.Forms.TextBox();
+            this.txtbPass = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.pictureBox46 = new System.Windows.Forms.PictureBox();
+            this.label48 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.label47 = new System.Windows.Forms.Label();
+            this.label49 = new System.Windows.Forms.Label();
+            this.pictureBox47 = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -254,7 +269,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tablekq)).BeginInit();
             this.tabPage8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataKQ)).BeginInit();
             this.flowLayoutPanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).BeginInit();
@@ -269,6 +283,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataKQ)).BeginInit();
+            this.tabPage9.SuspendLayout();
+            this.ChangePass.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox46)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox47)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -280,6 +299,7 @@
             this.tabControl1.Controls.Add(this.tabPage5);
             this.tabControl1.Controls.Add(this.tabPage6);
             this.tabControl1.Controls.Add(this.tabPage8);
+            this.tabControl1.Controls.Add(this.tabPage9);
             this.tabControl1.Controls.Add(this.tabPage7);
             this.tabControl1.Font = new System.Drawing.Font("Cambria", 13.2F, System.Drawing.FontStyle.Bold);
             this.tabControl1.Location = new System.Drawing.Point(0, 2);
@@ -302,7 +322,7 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage1.Size = new System.Drawing.Size(1919, 997);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Quản lý sân vận động";
+            this.tabPage1.Text = "Sân vận động";
             this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
             // 
             // groupBox1
@@ -619,7 +639,7 @@
             this.tabPage2.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage2.Size = new System.Drawing.Size(1919, 997);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Quản lý câu lạc bộ";
+            this.tabPage2.Text = "Câu lạc bộ";
             this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
             // 
             // groupBox2
@@ -1078,7 +1098,7 @@
             this.tabPage3.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage3.Size = new System.Drawing.Size(1919, 997);
             this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Quản lý cầu thủ";
+            this.tabPage3.Text = "Cầu thủ";
             this.tabPage3.Click += new System.EventHandler(this.tabPage3_Click);
             // 
             // groupBox3
@@ -1408,7 +1428,7 @@
             this.tabPage4.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage4.Size = new System.Drawing.Size(1919, 997);
             this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Quản lý mùa giải";
+            this.tabPage4.Text = "Mùa giải";
             this.tabPage4.Click += new System.EventHandler(this.tabPage4_Click);
             // 
             // label30
@@ -1691,7 +1711,7 @@
             this.tabPage5.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage5.Size = new System.Drawing.Size(1919, 997);
             this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Quản lý lịch thi đấu";
+            this.tabPage5.Text = "Lịch thi đấu";
             this.tabPage5.Click += new System.EventHandler(this.tabPage5_Click);
             // 
             // label33
@@ -1939,7 +1959,7 @@
             this.tabPage6.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage6.Size = new System.Drawing.Size(1919, 997);
             this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "Quản lý kết quả";
+            this.tabPage6.Text = "Thông tin trận đấu";
             this.tabPage6.Click += new System.EventHandler(this.tabPage6_Click);
             // 
             // label42
@@ -2162,7 +2182,6 @@
             this.tablekq.Size = new System.Drawing.Size(1912, 578);
             this.tablekq.TabIndex = 54;
             this.tablekq.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tablekq_CellClick);
-            this.tablekq.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tablekq_CellContentClick);
             // 
             // tabPage8
             // 
@@ -2182,118 +2201,7 @@
             this.tabPage8.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage8.Size = new System.Drawing.Size(1919, 997);
             this.tabPage8.TabIndex = 7;
-            this.tabPage8.Text = "Kết quả thi đấu";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Arial Rounded MT Bold", 28.2F);
-            this.label10.ForeColor = System.Drawing.Color.Yellow;
-            this.label10.Location = new System.Drawing.Point(605, 28);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(704, 54);
-            this.label10.TabIndex = 110;
-            this.label10.Text = "Thông tin kết quả các trận đấu";
-            // 
-            // label3
-            // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Yellow;
-            this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.DarkGreen;
-            this.label3.Location = new System.Drawing.Point(667, 28);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(0, 54);
-            this.label3.TabIndex = 109;
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // button21
-            // 
-            this.button21.BackColor = System.Drawing.Color.Transparent;
-            this.button21.FlatAppearance.BorderColor = System.Drawing.Color.DarkGreen;
-            this.button21.FlatAppearance.BorderSize = 10;
-            this.button21.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.button21.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button21.ForeColor = System.Drawing.Color.DarkGreen;
-            this.button21.Location = new System.Drawing.Point(1190, 106);
-            this.button21.Margin = new System.Windows.Forms.Padding(4);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(132, 37);
-            this.button21.TabIndex = 108;
-            this.button21.Text = "Chọn";
-            this.button21.UseVisualStyleBackColor = false;
-            this.button21.Click += new System.EventHandler(this.button21_Click);
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(597, 108);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(208, 32);
-            this.label9.TabIndex = 107;
-            this.label9.Text = "Chọn mùa giải";
-            // 
-            // dataKQ
-            // 
-            this.dataKQ.BackgroundColor = System.Drawing.Color.White;
-            this.dataKQ.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataKQ.Location = new System.Drawing.Point(8, 242);
-            this.dataKQ.Margin = new System.Windows.Forms.Padding(4);
-            this.dataKQ.Name = "dataKQ";
-            this.dataKQ.RowHeadersWidth = 51;
-            this.dataKQ.Size = new System.Drawing.Size(1900, 410);
-            this.dataKQ.TabIndex = 103;
-            // 
-            // cbxmgg
-            // 
-            this.cbxmgg.FormattingEnabled = true;
-            this.cbxmgg.Items.AddRange(new object[] {
-            "Chọn mùa giải"});
-            this.cbxmgg.Location = new System.Drawing.Point(814, 106);
-            this.cbxmgg.Margin = new System.Windows.Forms.Padding(4);
-            this.cbxmgg.Name = "cbxmgg";
-            this.cbxmgg.Size = new System.Drawing.Size(359, 34);
-            this.cbxmgg.TabIndex = 106;
-            // 
-            // button26
-            // 
-            this.button26.BackColor = System.Drawing.Color.MistyRose;
-            this.button26.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button26.Location = new System.Drawing.Point(814, 165);
-            this.button26.Margin = new System.Windows.Forms.Padding(4);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(359, 39);
-            this.button26.TabIndex = 105;
-            this.button26.Text = "Xuất file bảng xếp hạng";
-            this.button26.UseVisualStyleBackColor = false;
-            this.button26.Click += new System.EventHandler(this.button26_Click);
-            // 
-            // textmg
-            // 
-            this.textmg.AutoSize = true;
-            this.textmg.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textmg.Location = new System.Drawing.Point(289, 396);
-            this.textmg.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.textmg.Name = "textmg";
-            this.textmg.Size = new System.Drawing.Size(0, 39);
-            this.textmg.TabIndex = 104;
-            // 
-            // tabPage7
-            // 
-            this.tabPage7.BackColor = System.Drawing.Color.Transparent;
-            this.tabPage7.ForeColor = System.Drawing.Color.Black;
-            this.tabPage7.Location = new System.Drawing.Point(4, 35);
-            this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(1919, 997);
-            this.tabPage7.TabIndex = 8;
-            this.tabPage7.Text = "Đăng xuất";
+            this.tabPage8.Text = "Kết quả trận đấu";
             // 
             // flowLayoutPanel4
             // 
@@ -2447,6 +2355,289 @@
             this.pictureBox45.TabIndex = 13;
             this.pictureBox45.TabStop = false;
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Arial Rounded MT Bold", 28.2F);
+            this.label10.ForeColor = System.Drawing.Color.Yellow;
+            this.label10.Location = new System.Drawing.Point(605, 28);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(704, 54);
+            this.label10.TabIndex = 110;
+            this.label10.Text = "Thông tin kết quả các trận đấu";
+            // 
+            // label3
+            // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Yellow;
+            this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.DarkGreen;
+            this.label3.Location = new System.Drawing.Point(667, 28);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(0, 54);
+            this.label3.TabIndex = 109;
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // button21
+            // 
+            this.button21.BackColor = System.Drawing.Color.Transparent;
+            this.button21.FlatAppearance.BorderColor = System.Drawing.Color.DarkGreen;
+            this.button21.FlatAppearance.BorderSize = 10;
+            this.button21.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.button21.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button21.ForeColor = System.Drawing.Color.DarkGreen;
+            this.button21.Location = new System.Drawing.Point(1190, 106);
+            this.button21.Margin = new System.Windows.Forms.Padding(4);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(132, 37);
+            this.button21.TabIndex = 108;
+            this.button21.Text = "Chọn";
+            this.button21.UseVisualStyleBackColor = false;
+            this.button21.Click += new System.EventHandler(this.button21_Click);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(597, 108);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(208, 32);
+            this.label9.TabIndex = 107;
+            this.label9.Text = "Chọn mùa giải";
+            // 
+            // dataKQ
+            // 
+            this.dataKQ.BackgroundColor = System.Drawing.Color.White;
+            this.dataKQ.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataKQ.Location = new System.Drawing.Point(8, 242);
+            this.dataKQ.Margin = new System.Windows.Forms.Padding(4);
+            this.dataKQ.Name = "dataKQ";
+            this.dataKQ.RowHeadersWidth = 51;
+            this.dataKQ.Size = new System.Drawing.Size(1900, 410);
+            this.dataKQ.TabIndex = 103;
+            // 
+            // cbxmgg
+            // 
+            this.cbxmgg.FormattingEnabled = true;
+            this.cbxmgg.Items.AddRange(new object[] {
+            "Chọn mùa giải"});
+            this.cbxmgg.Location = new System.Drawing.Point(814, 106);
+            this.cbxmgg.Margin = new System.Windows.Forms.Padding(4);
+            this.cbxmgg.Name = "cbxmgg";
+            this.cbxmgg.Size = new System.Drawing.Size(359, 34);
+            this.cbxmgg.TabIndex = 106;
+            // 
+            // button26
+            // 
+            this.button26.BackColor = System.Drawing.Color.MistyRose;
+            this.button26.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button26.Location = new System.Drawing.Point(814, 165);
+            this.button26.Margin = new System.Windows.Forms.Padding(4);
+            this.button26.Name = "button26";
+            this.button26.Size = new System.Drawing.Size(359, 39);
+            this.button26.TabIndex = 105;
+            this.button26.Text = "Xuất file bảng xếp hạng";
+            this.button26.UseVisualStyleBackColor = false;
+            this.button26.Click += new System.EventHandler(this.button26_Click);
+            // 
+            // textmg
+            // 
+            this.textmg.AutoSize = true;
+            this.textmg.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textmg.Location = new System.Drawing.Point(289, 396);
+            this.textmg.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.textmg.Name = "textmg";
+            this.textmg.Size = new System.Drawing.Size(0, 39);
+            this.textmg.TabIndex = 104;
+            // 
+            // tabPage9
+            // 
+            this.tabPage9.BackColor = System.Drawing.Color.White;
+            this.tabPage9.Controls.Add(this.pictureBox46);
+            this.tabPage9.Controls.Add(this.ChangePass);
+            this.tabPage9.Location = new System.Drawing.Point(4, 35);
+            this.tabPage9.Name = "tabPage9";
+            this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage9.Size = new System.Drawing.Size(1919, 997);
+            this.tabPage9.TabIndex = 9;
+            this.tabPage9.Text = "Đổi mật khẩu";
+            // 
+            // ChangePass
+            // 
+            this.ChangePass.BackColor = System.Drawing.Color.MistyRose;
+            this.ChangePass.Controls.Add(this.pictureBox47);
+            this.ChangePass.Controls.Add(this.label49);
+            this.ChangePass.Controls.Add(this.label47);
+            this.ChangePass.Controls.Add(this.label45);
+            this.ChangePass.Controls.Add(this.label48);
+            this.ChangePass.Controls.Add(this.btn_ChangePass);
+            this.ChangePass.Controls.Add(this.txtbRe_Pass);
+            this.ChangePass.Controls.Add(this.txtbxNewPass);
+            this.ChangePass.Controls.Add(this.txtbPass);
+            this.ChangePass.Controls.Add(this.label22);
+            this.ChangePass.Controls.Add(this.label38);
+            this.ChangePass.Controls.Add(this.label31);
+            this.ChangePass.Location = new System.Drawing.Point(6, 7);
+            this.ChangePass.Name = "ChangePass";
+            this.ChangePass.Size = new System.Drawing.Size(662, 987);
+            this.ChangePass.TabIndex = 103;
+            this.ChangePass.TabStop = false;
+            this.ChangePass.Text = "ChangePass";
+            // 
+            // btn_ChangePass
+            // 
+            this.btn_ChangePass.BackColor = System.Drawing.Color.LightSalmon;
+            this.btn_ChangePass.Location = new System.Drawing.Point(182, 866);
+            this.btn_ChangePass.Name = "btn_ChangePass";
+            this.btn_ChangePass.Size = new System.Drawing.Size(288, 48);
+            this.btn_ChangePass.TabIndex = 115;
+            this.btn_ChangePass.Text = "Đổi mật khẩu";
+            this.btn_ChangePass.UseVisualStyleBackColor = false;
+            this.btn_ChangePass.Click += new System.EventHandler(this.btn_ChangePass_Click);
+            // 
+            // txtbRe_Pass
+            // 
+            this.txtbRe_Pass.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F);
+            this.txtbRe_Pass.Location = new System.Drawing.Point(82, 802);
+            this.txtbRe_Pass.Margin = new System.Windows.Forms.Padding(4);
+            this.txtbRe_Pass.Name = "txtbRe_Pass";
+            this.txtbRe_Pass.PasswordChar = '*';
+            this.txtbRe_Pass.Size = new System.Drawing.Size(498, 42);
+            this.txtbRe_Pass.TabIndex = 105;
+            // 
+            // txtbxNewPass
+            // 
+            this.txtbxNewPass.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F);
+            this.txtbxNewPass.Location = new System.Drawing.Point(82, 695);
+            this.txtbxNewPass.Margin = new System.Windows.Forms.Padding(4);
+            this.txtbxNewPass.Name = "txtbxNewPass";
+            this.txtbxNewPass.PasswordChar = '*';
+            this.txtbxNewPass.Size = new System.Drawing.Size(498, 42);
+            this.txtbxNewPass.TabIndex = 104;
+            // 
+            // txtbPass
+            // 
+            this.txtbPass.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F);
+            this.txtbPass.Location = new System.Drawing.Point(82, 584);
+            this.txtbPass.Margin = new System.Windows.Forms.Padding(4);
+            this.txtbPass.Name = "txtbPass";
+            this.txtbPass.PasswordChar = '*';
+            this.txtbPass.Size = new System.Drawing.Size(498, 42);
+            this.txtbPass.TabIndex = 103;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.BackColor = System.Drawing.Color.MistyRose;
+            this.label22.Font = new System.Drawing.Font("Cambria", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.Color.Red;
+            this.label22.Location = new System.Drawing.Point(70, 436);
+            this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(525, 55);
+            this.label22.TabIndex = 86;
+            this.label22.Text = "Đổi mật khẩu tài khoản";
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.BackColor = System.Drawing.Color.MistyRose;
+            this.label38.Font = new System.Drawing.Font("Arial Rounded MT Bold", 48F);
+            this.label38.ForeColor = System.Drawing.Color.ForestGreen;
+            this.label38.Location = new System.Drawing.Point(59, 321);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(544, 93);
+            this.label38.TabIndex = 102;
+            this.label38.Text = "Management";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.BackColor = System.Drawing.Color.MistyRose;
+            this.label31.Font = new System.Drawing.Font("Arial Rounded MT Bold", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.ForeColor = System.Drawing.Color.ForestGreen;
+            this.label31.Location = new System.Drawing.Point(164, 239);
+            this.label31.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(340, 93);
+            this.label31.TabIndex = 101;
+            this.label31.Text = "Soccer ";
+            // 
+            // tabPage7
+            // 
+            this.tabPage7.BackColor = System.Drawing.Color.Transparent;
+            this.tabPage7.ForeColor = System.Drawing.Color.Black;
+            this.tabPage7.Location = new System.Drawing.Point(4, 35);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage7.Size = new System.Drawing.Size(1919, 997);
+            this.tabPage7.TabIndex = 8;
+            this.tabPage7.Text = "Đăng xuất";
+            // 
+            // pictureBox46
+            // 
+            this.pictureBox46.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox46.Image")));
+            this.pictureBox46.Location = new System.Drawing.Point(682, 11);
+            this.pictureBox46.Name = "pictureBox46";
+            this.pictureBox46.Size = new System.Drawing.Size(1231, 980);
+            this.pictureBox46.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox46.TabIndex = 104;
+            this.pictureBox46.TabStop = false;
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.Font = new System.Drawing.Font("Bahnschrift SemiBold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label48.Location = new System.Drawing.Point(210, 532);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(246, 36);
+            this.label48.TabIndex = 116;
+            this.label48.Text = "Mật khẩu hiện tại";
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Font = new System.Drawing.Font("Bahnschrift SemiBold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label45.Location = new System.Drawing.Point(207, 646);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(277, 36);
+            this.label45.TabIndex = 117;
+            this.label45.Text = "Nhập mật khẩu mới";
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.Font = new System.Drawing.Font("Bahnschrift SemiBold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label47.Location = new System.Drawing.Point(191, 752);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(0, 36);
+            this.label47.TabIndex = 118;
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.Font = new System.Drawing.Font("Bahnschrift SemiBold", 18F, System.Drawing.FontStyle.Bold);
+            this.label49.Location = new System.Drawing.Point(224, 752);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(260, 36);
+            this.label49.TabIndex = 119;
+            this.label49.Text = "Nhập lại mật khẩu";
+            // 
+            // pictureBox47
+            // 
+            this.pictureBox47.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox47.Image")));
+            this.pictureBox47.Location = new System.Drawing.Point(137, 21);
+            this.pictureBox47.Name = "pictureBox47";
+            this.pictureBox47.Size = new System.Drawing.Size(392, 215);
+            this.pictureBox47.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox47.TabIndex = 120;
+            this.pictureBox47.TabStop = false;
+            // 
             // Admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -2518,7 +2709,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.tablekq)).EndInit();
             this.tabPage8.ResumeLayout(false);
             this.tabPage8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataKQ)).EndInit();
             this.flowLayoutPanel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).EndInit();
@@ -2533,6 +2723,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataKQ)).EndInit();
+            this.tabPage9.ResumeLayout(false);
+            this.ChangePass.ResumeLayout(false);
+            this.ChangePass.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox46)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox47)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2712,5 +2908,20 @@
         private System.Windows.Forms.PictureBox pictureBox43;
         private System.Windows.Forms.PictureBox pictureBox44;
         private System.Windows.Forms.PictureBox pictureBox45;
+        private System.Windows.Forms.TabPage tabPage9;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.GroupBox ChangePass;
+        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.TextBox txtbxNewPass;
+        private System.Windows.Forms.TextBox txtbPass;
+        private System.Windows.Forms.TextBox txtbRe_Pass;
+        private System.Windows.Forms.Button btn_ChangePass;
+        private System.Windows.Forms.PictureBox pictureBox46;
+        private System.Windows.Forms.Label label47;
+        private System.Windows.Forms.Label label45;
+        private System.Windows.Forms.Label label48;
+        private System.Windows.Forms.PictureBox pictureBox47;
+        private System.Windows.Forms.Label label49;
     }
 }

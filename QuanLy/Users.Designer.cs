@@ -51,6 +51,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.ltd = new System.Windows.Forms.DataGridView();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.button3 = new System.Windows.Forms.Button();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
@@ -86,8 +87,21 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.tableclb = new System.Windows.Forms.DataGridView();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.pictureBox28 = new System.Windows.Forms.PictureBox();
+            this.ChangePass = new System.Windows.Forms.GroupBox();
+            this.pictureBox27 = new System.Windows.Forms.PictureBox();
+            this.btn_ChangePass = new System.Windows.Forms.Button();
+            this.label48 = new System.Windows.Forms.Label();
+            this.label47 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.txtbRe_Pass = new System.Windows.Forms.TextBox();
+            this.txtbxNewPass = new System.Windows.Forms.TextBox();
+            this.txtbPass = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
             this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.button3 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
@@ -125,6 +139,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tableclb)).BeginInit();
+            this.tabPage6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
+            this.ChangePass.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -133,6 +151,7 @@
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage4);
+            this.tabControl1.Controls.Add(this.tabPage6);
             this.tabControl1.Controls.Add(this.tabPage5);
             this.tabControl1.Font = new System.Drawing.Font("Cambria", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControl1.ItemSize = new System.Drawing.Size(200, 40);
@@ -413,6 +432,15 @@
             this.tabPage3.Size = new System.Drawing.Size(1917, 1127);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Danh sách cầu thủ";
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(1379, 118);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(141, 43);
+            this.button3.TabIndex = 118;
+            this.button3.Text = "button3";
+            this.button3.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel2
             // 
@@ -807,6 +835,168 @@
             this.tableclb.Size = new System.Drawing.Size(1898, 477);
             this.tableclb.TabIndex = 117;
             // 
+            // tabPage6
+            // 
+            this.tabPage6.BackColor = System.Drawing.Color.White;
+            this.tabPage6.Controls.Add(this.pictureBox28);
+            this.tabPage6.Controls.Add(this.ChangePass);
+            this.tabPage6.Location = new System.Drawing.Point(4, 44);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage6.Size = new System.Drawing.Size(1917, 1127);
+            this.tabPage6.TabIndex = 5;
+            this.tabPage6.Text = "Đổi mật khẩu";
+            // 
+            // pictureBox28
+            // 
+            this.pictureBox28.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox28.Image")));
+            this.pictureBox28.Location = new System.Drawing.Point(666, 6);
+            this.pictureBox28.Name = "pictureBox28";
+            this.pictureBox28.Size = new System.Drawing.Size(1242, 1115);
+            this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox28.TabIndex = 105;
+            this.pictureBox28.TabStop = false;
+            // 
+            // ChangePass
+            // 
+            this.ChangePass.BackColor = System.Drawing.Color.MistyRose;
+            this.ChangePass.Controls.Add(this.pictureBox27);
+            this.ChangePass.Controls.Add(this.btn_ChangePass);
+            this.ChangePass.Controls.Add(this.label48);
+            this.ChangePass.Controls.Add(this.label47);
+            this.ChangePass.Controls.Add(this.label45);
+            this.ChangePass.Controls.Add(this.txtbRe_Pass);
+            this.ChangePass.Controls.Add(this.txtbxNewPass);
+            this.ChangePass.Controls.Add(this.txtbPass);
+            this.ChangePass.Controls.Add(this.label22);
+            this.ChangePass.Controls.Add(this.label38);
+            this.ChangePass.Controls.Add(this.label31);
+            this.ChangePass.Location = new System.Drawing.Point(-4, 3);
+            this.ChangePass.Name = "ChangePass";
+            this.ChangePass.Size = new System.Drawing.Size(662, 1124);
+            this.ChangePass.TabIndex = 104;
+            this.ChangePass.TabStop = false;
+            this.ChangePass.Text = "ChangePass";
+            // 
+            // pictureBox27
+            // 
+            this.pictureBox27.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox27.Image")));
+            this.pictureBox27.Location = new System.Drawing.Point(126, 32);
+            this.pictureBox27.Name = "pictureBox27";
+            this.pictureBox27.Size = new System.Drawing.Size(418, 262);
+            this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox27.TabIndex = 116;
+            this.pictureBox27.TabStop = false;
+            // 
+            // btn_ChangePass
+            // 
+            this.btn_ChangePass.BackColor = System.Drawing.Color.LightSalmon;
+            this.btn_ChangePass.Location = new System.Drawing.Point(191, 937);
+            this.btn_ChangePass.Name = "btn_ChangePass";
+            this.btn_ChangePass.Size = new System.Drawing.Size(271, 48);
+            this.btn_ChangePass.TabIndex = 115;
+            this.btn_ChangePass.Text = "Đổi mật khẩu";
+            this.btn_ChangePass.UseVisualStyleBackColor = false;
+            this.btn_ChangePass.Click += new System.EventHandler(this.btn_ChangePass_Click);
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.Font = new System.Drawing.Font("Bahnschrift SemiBold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label48.Location = new System.Drawing.Point(202, 603);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(246, 36);
+            this.label48.TabIndex = 114;
+            this.label48.Text = "Mật khẩu hiện tại";
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.Font = new System.Drawing.Font("Bahnschrift SemiBold", 18F, System.Drawing.FontStyle.Bold);
+            this.label47.Location = new System.Drawing.Point(185, 720);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(277, 36);
+            this.label47.TabIndex = 113;
+            this.label47.Text = "Nhập mật khẩu mới";
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Font = new System.Drawing.Font("Bahnschrift SemiBold", 18F, System.Drawing.FontStyle.Bold);
+            this.label45.Location = new System.Drawing.Point(194, 829);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(260, 36);
+            this.label45.TabIndex = 112;
+            this.label45.Text = "Nhập lại mật khẩu";
+            // 
+            // txtbRe_Pass
+            // 
+            this.txtbRe_Pass.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F);
+            this.txtbRe_Pass.Location = new System.Drawing.Point(111, 877);
+            this.txtbRe_Pass.Margin = new System.Windows.Forms.Padding(4);
+            this.txtbRe_Pass.Name = "txtbRe_Pass";
+            this.txtbRe_Pass.PasswordChar = '*';
+            this.txtbRe_Pass.Size = new System.Drawing.Size(433, 42);
+            this.txtbRe_Pass.TabIndex = 105;
+            // 
+            // txtbxNewPass
+            // 
+            this.txtbxNewPass.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F);
+            this.txtbxNewPass.Location = new System.Drawing.Point(111, 772);
+            this.txtbxNewPass.Margin = new System.Windows.Forms.Padding(4);
+            this.txtbxNewPass.Name = "txtbxNewPass";
+            this.txtbxNewPass.PasswordChar = '*';
+            this.txtbxNewPass.Size = new System.Drawing.Size(433, 42);
+            this.txtbxNewPass.TabIndex = 104;
+            // 
+            // txtbPass
+            // 
+            this.txtbPass.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F);
+            this.txtbPass.Location = new System.Drawing.Point(111, 655);
+            this.txtbPass.Margin = new System.Windows.Forms.Padding(4);
+            this.txtbPass.Name = "txtbPass";
+            this.txtbPass.PasswordChar = '*';
+            this.txtbPass.Size = new System.Drawing.Size(433, 42);
+            this.txtbPass.TabIndex = 103;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.BackColor = System.Drawing.Color.MistyRose;
+            this.label22.Font = new System.Drawing.Font("Cambria", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.Color.Red;
+            this.label22.Location = new System.Drawing.Point(70, 504);
+            this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(525, 55);
+            this.label22.TabIndex = 86;
+            this.label22.Text = "Đổi mật khẩu tài khoản";
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.BackColor = System.Drawing.Color.MistyRose;
+            this.label38.Font = new System.Drawing.Font("Arial Rounded MT Bold", 48F);
+            this.label38.ForeColor = System.Drawing.Color.ForestGreen;
+            this.label38.Location = new System.Drawing.Point(59, 379);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(544, 93);
+            this.label38.TabIndex = 102;
+            this.label38.Text = "Management";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.BackColor = System.Drawing.Color.MistyRose;
+            this.label31.Font = new System.Drawing.Font("Arial Rounded MT Bold", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.ForeColor = System.Drawing.Color.ForestGreen;
+            this.label31.Location = new System.Drawing.Point(164, 297);
+            this.label31.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(340, 93);
+            this.label31.TabIndex = 101;
+            this.label31.Text = "Soccer ";
+            // 
             // tabPage5
             // 
             this.tabPage5.Location = new System.Drawing.Point(4, 44);
@@ -816,15 +1006,6 @@
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Đăng xuất";
             this.tabPage5.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(1379, 118);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(141, 43);
-            this.button3.TabIndex = 118;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
             // 
             // Users
             // 
@@ -879,6 +1060,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tableclb)).EndInit();
+            this.tabPage6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
+            this.ChangePass.ResumeLayout(false);
+            this.ChangePass.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -944,5 +1130,19 @@
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TabPage tabPage6;
+        private System.Windows.Forms.GroupBox ChangePass;
+        private System.Windows.Forms.Button btn_ChangePass;
+        private System.Windows.Forms.Label label48;
+        private System.Windows.Forms.Label label47;
+        private System.Windows.Forms.Label label45;
+        private System.Windows.Forms.TextBox txtbRe_Pass;
+        private System.Windows.Forms.TextBox txtbxNewPass;
+        private System.Windows.Forms.TextBox txtbPass;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.PictureBox pictureBox28;
+        private System.Windows.Forms.PictureBox pictureBox27;
     }
 }

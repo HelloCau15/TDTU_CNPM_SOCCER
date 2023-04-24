@@ -17,6 +17,7 @@ namespace QuanLy
             int m = tk.DangNhap(tdn.Text, mk.Text);
             if (m != -1)
             {
+                Session.taikhoan = tdn.Text;
                 if (m == 1)
                 {
                     Admin ad = new Admin();

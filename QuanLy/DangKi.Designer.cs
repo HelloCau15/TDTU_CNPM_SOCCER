@@ -49,6 +49,9 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txtbCfPass = new System.Windows.Forms.TextBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -56,13 +59,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.LightCoral;
             this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
-            this.button1.Location = new System.Drawing.Point(427, 849);
+            this.button1.Location = new System.Drawing.Point(427, 889);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(168, 42);
@@ -94,7 +98,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.NavajoWhite;
             this.button2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
-            this.button2.Location = new System.Drawing.Point(239, 849);
+            this.button2.Location = new System.Drawing.Point(239, 889);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(168, 42);
@@ -154,6 +158,9 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.MistyRose;
+            this.groupBox1.Controls.Add(this.pictureBox7);
+            this.groupBox1.Controls.Add(this.txtbCfPass);
+            this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.pictureBox6);
             this.groupBox1.Controls.Add(this.pictureBox5);
             this.groupBox1.Controls.Add(this.label2);
@@ -185,7 +192,7 @@
             // 
             this.pictureBox6.BackColor = System.Drawing.SystemColors.Window;
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(557, 787);
+            this.pictureBox6.Location = new System.Drawing.Point(557, 827);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(38, 38);
@@ -197,7 +204,7 @@
             // 
             this.pictureBox5.BackColor = System.Drawing.SystemColors.Window;
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(557, 707);
+            this.pictureBox5.Location = new System.Drawing.Point(557, 754);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(38, 34);
@@ -209,7 +216,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F);
-            this.label2.Location = new System.Drawing.Point(18, 786);
+            this.label2.Location = new System.Drawing.Point(18, 826);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(96, 34);
             this.label2.TabIndex = 108;
@@ -219,16 +226,16 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F);
-            this.label3.Location = new System.Drawing.Point(18, 711);
+            this.label3.Location = new System.Drawing.Point(18, 754);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(192, 34);
+            this.label3.Size = new System.Drawing.Size(115, 34);
             this.label3.TabIndex = 107;
-            this.label3.Text = "Số điện thoại";
+            this.label3.Text = "Phone ";
             // 
             // sdt
             // 
             this.sdt.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F);
-            this.sdt.Location = new System.Drawing.Point(239, 783);
+            this.sdt.Location = new System.Drawing.Point(239, 823);
             this.sdt.Margin = new System.Windows.Forms.Padding(4);
             this.sdt.Name = "sdt";
             this.sdt.Size = new System.Drawing.Size(356, 42);
@@ -237,7 +244,7 @@
             // email
             // 
             this.email.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F);
-            this.email.Location = new System.Drawing.Point(239, 703);
+            this.email.Location = new System.Drawing.Point(239, 751);
             this.email.Margin = new System.Windows.Forms.Padding(4);
             this.email.Name = "email";
             this.email.Size = new System.Drawing.Size(356, 42);
@@ -299,6 +306,38 @@
             this.pictureBox4.TabIndex = 102;
             this.pictureBox4.TabStop = false;
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F);
+            this.label8.Location = new System.Drawing.Point(18, 694);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(209, 34);
+            this.label8.TabIndex = 111;
+            this.label8.Text = "Re-Password";
+            // 
+            // txtbCfPass
+            // 
+            this.txtbCfPass.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F);
+            this.txtbCfPass.Location = new System.Drawing.Point(239, 686);
+            this.txtbCfPass.Margin = new System.Windows.Forms.Padding(4);
+            this.txtbCfPass.Name = "txtbCfPass";
+            this.txtbCfPass.PasswordChar = '*';
+            this.txtbCfPass.Size = new System.Drawing.Size(356, 42);
+            this.txtbCfPass.TabIndex = 112;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.BackColor = System.Drawing.SystemColors.Window;
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(566, 690);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(29, 34);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 113;
+            this.pictureBox7.TabStop = false;
+            // 
             // DangKi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -320,6 +359,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -346,5 +386,8 @@
         private System.Windows.Forms.TextBox email;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.TextBox txtbCfPass;
+        private System.Windows.Forms.Label label8;
     }
 }

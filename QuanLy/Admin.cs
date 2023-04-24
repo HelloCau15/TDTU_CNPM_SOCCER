@@ -1189,15 +1189,8 @@ namespace QuanLy
 
         }
 
-        private void tablekq_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
+    
 
-        }
-
-        private void tabPage7_Click(object sender, EventArgs e)
-        {
-
-        }
         public void hienthimgg()
         {
             XepHang xh = new XepHang();
@@ -1210,7 +1203,6 @@ namespace QuanLy
         }
         private void button21_Click(object sender, EventArgs e)
         {
-            textmg.Text = "Danh sách kết quả mùa giải " + cbxmgg.Text;
             hienthimgg();
         }
 
@@ -1232,12 +1224,39 @@ namespace QuanLy
         {
 
             if (((TabControl)sender).SelectedTab == tabPage7)
-                {
-                    DangNhap dn = new DangNhap();
-                    this.Hide();
-                    dn.ShowDialog();
-                    this.Close();
+            {
+                Session.taikhoan = null;
+                DangNhap dn = new DangNhap();
+                this.Hide();
+                dn.ShowDialog();
+                this.Close();
             }
         }
+        private void btn_ChangePass_Click(object sender, EventArgs e)
+        {
+            TaiKhoan tk = new TaiKhoan();
+            int m = tk.DangNhap(Session.taikhoan, txtbPass.Text);
+            if (m != -1)
+            {
+                if(txtbRe_Pass.Text == txtbxNewPass.Text)
+                {
+                    ketnoi kn = new ketnoi();
+                    SqlConnection con = kn.GetConnection();
+                    string pass = txtbxNewPass.Text;
+                    string sql1 = "UPDATE TaiKhoan SET MatKhau='" + pass + "' WHERE TenDangNhap = '" + Session.taikhoan + "'";
+                    con.Open();
+                    SqlCommand cmd1 = new SqlCommand(sql1, con);
+                    SqlDataReader rd1 = cmd1.ExecuteReader();
+                    
+                    MessageBox.Show("Đổi mật thành công");
+                }
+                else
+                {
+                    MessageBox.Show("Không trùng khớp mật khẩu");
+                }
+            }
+        }
+        
+
     }
 }
