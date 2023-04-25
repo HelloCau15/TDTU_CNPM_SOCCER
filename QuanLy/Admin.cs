@@ -529,9 +529,17 @@ namespace QuanLy
             }
             else
             {
-                ltd.ThemLTD(int.Parse(cbx1.SelectedValue.ToString()), int.Parse(cbx2.SelectedValue.ToString()), date.Text, int.Parse(cbxsv.SelectedValue.ToString()), int.Parse(cbxmg.SelectedValue.ToString()));
-                hienthiltd();
-                MessageBox.Show("Thêm mới thành công.");
+                if (Convert.ToDateTime(date.Text) < DateTime.Now)
+                {
+                    MessageBox.Show("Ngày thi đấu cần lớn hơn ngày hiện tại.");
+                }
+                else
+                {
+                    ltd.ThemLTD(int.Parse(cbx1.SelectedValue.ToString()), int.Parse(cbx2.SelectedValue.ToString()), date.Text, int.Parse(cbxsv.SelectedValue.ToString()), int.Parse(cbxmg.SelectedValue.ToString()), gtd.Text);
+                    hienthiltd();
+                    MessageBox.Show("Thêm mới thành công.");
+                }
+                
             }
         }
 
@@ -543,9 +551,16 @@ namespace QuanLy
             }
             else
             {
-                ltd.SuaLTD(int.Parse(maltd.Text), int.Parse(cbx1.SelectedValue.ToString()), int.Parse(cbx2.SelectedValue.ToString()), date.Text, int.Parse(cbxsv.SelectedValue.ToString()), int.Parse(cbxmg.SelectedValue.ToString()));
-                hienthiltd();
-                MessageBox.Show("Sửa thành công.");
+                if (Convert.ToDateTime(date.Text) < DateTime.Now)
+                {
+                    MessageBox.Show("Ngày thi đấu cần lớn hơn ngày hiện tại.");
+                }
+                else
+                {
+                    ltd.SuaLTD(int.Parse(maltd.Text), int.Parse(cbx1.SelectedValue.ToString()), int.Parse(cbx2.SelectedValue.ToString()), date.Text, int.Parse(cbxsv.SelectedValue.ToString()), int.Parse(cbxmg.SelectedValue.ToString()), gtd.Text);
+                    hienthiltd();
+                    MessageBox.Show("Sửa thành công.");
+                }
             }
         }
 
@@ -591,7 +606,12 @@ namespace QuanLy
                 cbx2.Text = tableltd.Rows[row].Cells[2].Value.ToString();
                 cbxsv.Text = tableltd.Rows[row].Cells[3].Value.ToString();
                 cbxmg.Text = tableltd.Rows[row].Cells[4].Value.ToString();
-                date.Text = tableltd.Rows[row].Cells[5].Value.ToString();
+                date.Text = tableltd.Rows[row].Cells[6].Value.ToString();
+                if (tableltd.Rows[row].Cells[5].Value.ToString() != "")
+                {
+                    gtd.Text = tableltd.Rows[row].Cells[5].Value.ToString();
+
+                }
             }
         }
 

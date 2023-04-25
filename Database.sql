@@ -67,6 +67,7 @@ CREATE TABLE [dbo].[LichThiDau](
 	[NgayThiDau] [datetime] NULL,
 	[IdSVD] [int] NULL,
 	[IdMuaGiai] [int] NULL,
+	[GioThiDau] [time] null,
 PRIMARY KEY CLUSTERED 
 (
 	[Id] ASC
@@ -279,6 +280,6 @@ GO
 --GO
 --ALTER TABLE [dbo].TaiKhoan ADD  [SDT] varchar(10) null
 --GO
-ALTER TABLE [dbo].[LichThiDau]
-ADD CONSTRAINT DateCheck CHECK (NgayThiDau >= CAST(GETDATE() AS DATE))
-GO
+--ALTER TABLE [dbo].[LichThiDau]
+--ADD CONSTRAINT DateCheck CHECK (NgayThiDau >= CAST(GETDATE() AS DATE))
+--GO

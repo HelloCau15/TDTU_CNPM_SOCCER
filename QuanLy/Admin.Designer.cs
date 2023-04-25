@@ -140,6 +140,7 @@
             this.label29 = new System.Windows.Forms.Label();
             this.tablemg = new System.Windows.Forms.DataGridView();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.gtd = new System.Windows.Forms.DateTimePicker();
             this.label33 = new System.Windows.Forms.Label();
             this.date = new System.Windows.Forms.DateTimePicker();
             this.label26 = new System.Windows.Forms.Label();
@@ -303,7 +304,7 @@
             this.tabControl1.Controls.Add(this.tabPage7);
             this.tabControl1.Font = new System.Drawing.Font("Cambria", 13.2F, System.Drawing.FontStyle.Bold);
             this.tabControl1.Location = new System.Drawing.Point(0, 2);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(4);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(1927, 1036);
@@ -317,9 +318,9 @@
             this.tabPage1.Controls.Add(this.groupBox1);
             this.tabPage1.Font = new System.Drawing.Font("Cambria", 13.2F, System.Drawing.FontStyle.Bold);
             this.tabPage1.Location = new System.Drawing.Point(4, 35);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage1.Size = new System.Drawing.Size(1919, 997);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Sân vận động";
@@ -347,9 +348,9 @@
             this.groupBox1.Controls.Add(this.tablesvd);
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(8, 5);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Size = new System.Drawing.Size(1921, 991);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
@@ -441,7 +442,7 @@
             this.button5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
             this.button5.ForeColor = System.Drawing.Color.DarkGreen;
             this.button5.Location = new System.Drawing.Point(1505, 267);
-            this.button5.Margin = new System.Windows.Forms.Padding(4);
+            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(157, 33);
             this.button5.TabIndex = 17;
@@ -453,7 +454,7 @@
             // 
             this.key.Font = new System.Drawing.Font("Cambria", 13.2F, System.Drawing.FontStyle.Bold);
             this.key.Location = new System.Drawing.Point(853, 267);
-            this.key.Margin = new System.Windows.Forms.Padding(4);
+            this.key.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.key.Name = "key";
             this.key.Size = new System.Drawing.Size(633, 33);
             this.key.TabIndex = 16;
@@ -478,7 +479,7 @@
             this.button4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
             this.button4.ForeColor = System.Drawing.Color.DarkGreen;
             this.button4.Location = new System.Drawing.Point(1505, 334);
-            this.button4.Margin = new System.Windows.Forms.Padding(4);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(157, 43);
             this.button4.TabIndex = 14;
@@ -491,7 +492,7 @@
             this.button3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
             this.button3.ForeColor = System.Drawing.Color.DarkGreen;
             this.button3.Location = new System.Drawing.Point(997, 334);
-            this.button3.Margin = new System.Windows.Forms.Padding(4);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(157, 43);
             this.button3.TabIndex = 13;
@@ -504,7 +505,7 @@
             this.button2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
             this.button2.ForeColor = System.Drawing.Color.DarkGreen;
             this.button2.Location = new System.Drawing.Point(1251, 334);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(157, 43);
             this.button2.TabIndex = 12;
@@ -517,7 +518,7 @@
             this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
             this.button1.ForeColor = System.Drawing.Color.DarkGreen;
             this.button1.Location = new System.Drawing.Point(744, 334);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(157, 43);
             this.button1.TabIndex = 11;
@@ -529,7 +530,7 @@
             // 
             this.tensvd.Font = new System.Drawing.Font("Cambria", 13.2F, System.Drawing.FontStyle.Bold);
             this.tensvd.Location = new System.Drawing.Point(1343, 145);
-            this.tensvd.Margin = new System.Windows.Forms.Padding(4);
+            this.tensvd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tensvd.Name = "tensvd";
             this.tensvd.Size = new System.Drawing.Size(319, 33);
             this.tensvd.TabIndex = 10;
@@ -539,7 +540,7 @@
             // 
             this.sc.Font = new System.Drawing.Font("Cambria", 13.2F, System.Drawing.FontStyle.Bold);
             this.sc.Location = new System.Drawing.Point(853, 201);
-            this.sc.Margin = new System.Windows.Forms.Padding(4);
+            this.sc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.sc.Name = "sc";
             this.sc.Size = new System.Drawing.Size(319, 33);
             this.sc.TabIndex = 9;
@@ -549,7 +550,7 @@
             // 
             this.tp.Font = new System.Drawing.Font("Cambria", 13.2F, System.Drawing.FontStyle.Bold);
             this.tp.Location = new System.Drawing.Point(1343, 203);
-            this.tp.Margin = new System.Windows.Forms.Padding(4);
+            this.tp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tp.Name = "tp";
             this.tp.Size = new System.Drawing.Size(319, 33);
             this.tp.TabIndex = 8;
@@ -560,7 +561,7 @@
             this.masvd.BackColor = System.Drawing.SystemColors.Info;
             this.masvd.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
             this.masvd.Location = new System.Drawing.Point(853, 145);
-            this.masvd.Margin = new System.Windows.Forms.Padding(4);
+            this.masvd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.masvd.Name = "masvd";
             this.masvd.ReadOnly = true;
             this.masvd.Size = new System.Drawing.Size(319, 34);
@@ -621,7 +622,7 @@
             this.tablesvd.BackgroundColor = System.Drawing.Color.White;
             this.tablesvd.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.tablesvd.Location = new System.Drawing.Point(487, 420);
-            this.tablesvd.Margin = new System.Windows.Forms.Padding(4);
+            this.tablesvd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tablesvd.Name = "tablesvd";
             this.tablesvd.RowHeadersWidth = 51;
             this.tablesvd.Size = new System.Drawing.Size(1416, 559);
@@ -634,9 +635,9 @@
             this.tabPage2.BackColor = System.Drawing.Color.LightCoral;
             this.tabPage2.Controls.Add(this.groupBox2);
             this.tabPage2.Location = new System.Drawing.Point(4, 35);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(4);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(4);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage2.Size = new System.Drawing.Size(1919, 997);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Câu lạc bộ";
@@ -663,9 +664,9 @@
             this.groupBox2.Controls.Add(this.label11);
             this.groupBox2.Controls.Add(this.tableclb);
             this.groupBox2.Location = new System.Drawing.Point(7, 7);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Size = new System.Drawing.Size(1912, 990);
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
@@ -900,7 +901,7 @@
             // 
             this.button10.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
             this.button10.Location = new System.Drawing.Point(1315, 255);
-            this.button10.Margin = new System.Windows.Forms.Padding(4);
+            this.button10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(157, 39);
             this.button10.TabIndex = 20;
@@ -910,11 +911,11 @@
             // 
             // keyclb
             // 
-            this.keyclb.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.keyclb.Font = new System.Drawing.Font("Cambria", 13.2F, System.Drawing.FontStyle.Bold);
             this.keyclb.Location = new System.Drawing.Point(608, 258);
-            this.keyclb.Margin = new System.Windows.Forms.Padding(4);
+            this.keyclb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.keyclb.Name = "keyclb";
-            this.keyclb.Size = new System.Drawing.Size(687, 31);
+            this.keyclb.Size = new System.Drawing.Size(687, 33);
             this.keyclb.TabIndex = 19;
             this.keyclb.Text = "Nhập tên câu lạc bộ";
             this.keyclb.TextChanged += new System.EventHandler(this.keyclb_TextChanged);
@@ -937,7 +938,7 @@
             this.button9.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
             this.button9.ForeColor = System.Drawing.Color.DarkGreen;
             this.button9.Location = new System.Drawing.Point(1315, 322);
-            this.button9.Margin = new System.Windows.Forms.Padding(4);
+            this.button9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(160, 49);
             this.button9.TabIndex = 14;
@@ -950,7 +951,7 @@
             this.button8.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
             this.button8.ForeColor = System.Drawing.Color.DarkGreen;
             this.button8.Location = new System.Drawing.Point(1033, 322);
-            this.button8.Margin = new System.Windows.Forms.Padding(4);
+            this.button8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(160, 49);
             this.button8.TabIndex = 13;
@@ -963,7 +964,7 @@
             this.button7.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
             this.button7.ForeColor = System.Drawing.Color.DarkGreen;
             this.button7.Location = new System.Drawing.Point(739, 322);
-            this.button7.Margin = new System.Windows.Forms.Padding(4);
+            this.button7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(160, 49);
             this.button7.TabIndex = 12;
@@ -976,7 +977,7 @@
             this.button6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
             this.button6.ForeColor = System.Drawing.Color.DarkGreen;
             this.button6.Location = new System.Drawing.Point(435, 322);
-            this.button6.Margin = new System.Windows.Forms.Padding(4);
+            this.button6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(160, 49);
             this.button6.TabIndex = 11;
@@ -989,7 +990,7 @@
             this.cbxsvd.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxsvd.FormattingEnabled = true;
             this.cbxsvd.Location = new System.Drawing.Point(608, 192);
-            this.cbxsvd.Margin = new System.Windows.Forms.Padding(4);
+            this.cbxsvd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbxsvd.Name = "cbxsvd";
             this.cbxsvd.Size = new System.Drawing.Size(319, 33);
             this.cbxsvd.TabIndex = 10;
@@ -997,21 +998,21 @@
             // 
             // tenclb
             // 
-            this.tenclb.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
+            this.tenclb.Font = new System.Drawing.Font("Cambria", 13.2F, System.Drawing.FontStyle.Bold);
             this.tenclb.Location = new System.Drawing.Point(1149, 138);
-            this.tenclb.Margin = new System.Windows.Forms.Padding(4);
+            this.tenclb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tenclb.Name = "tenclb";
-            this.tenclb.Size = new System.Drawing.Size(321, 34);
+            this.tenclb.Size = new System.Drawing.Size(321, 33);
             this.tenclb.TabIndex = 9;
             this.tenclb.TextChanged += new System.EventHandler(this.tenclb_TextChanged);
             // 
             // hlv
             // 
-            this.hlv.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
+            this.hlv.Font = new System.Drawing.Font("Cambria", 13.2F, System.Drawing.FontStyle.Bold);
             this.hlv.Location = new System.Drawing.Point(1149, 193);
-            this.hlv.Margin = new System.Windows.Forms.Padding(4);
+            this.hlv.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.hlv.Name = "hlv";
-            this.hlv.Size = new System.Drawing.Size(321, 34);
+            this.hlv.Size = new System.Drawing.Size(321, 33);
             this.hlv.TabIndex = 8;
             this.hlv.TextChanged += new System.EventHandler(this.hlv_TextChanged);
             // 
@@ -1020,7 +1021,7 @@
             this.maclb.BackColor = System.Drawing.SystemColors.Info;
             this.maclb.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
             this.maclb.Location = new System.Drawing.Point(608, 138);
-            this.maclb.Margin = new System.Windows.Forms.Padding(4);
+            this.maclb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.maclb.Name = "maclb";
             this.maclb.ReadOnly = true;
             this.maclb.Size = new System.Drawing.Size(319, 34);
@@ -1080,7 +1081,7 @@
             this.tableclb.BackgroundColor = System.Drawing.Color.White;
             this.tableclb.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.tableclb.Location = new System.Drawing.Point(-1, 511);
-            this.tableclb.Margin = new System.Windows.Forms.Padding(4);
+            this.tableclb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableclb.Name = "tableclb";
             this.tableclb.RowHeadersWidth = 51;
             this.tableclb.Size = new System.Drawing.Size(1905, 471);
@@ -1093,9 +1094,9 @@
             this.tabPage3.BackColor = System.Drawing.Color.LightCoral;
             this.tabPage3.Controls.Add(this.groupBox3);
             this.tabPage3.Location = new System.Drawing.Point(4, 35);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(4);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(4);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage3.Size = new System.Drawing.Size(1919, 997);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Cầu thủ";
@@ -1127,9 +1128,9 @@
             this.groupBox3.Controls.Add(this.label21);
             this.groupBox3.Controls.Add(this.tablect);
             this.groupBox3.Location = new System.Drawing.Point(8, 7);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox3.Size = new System.Drawing.Size(1905, 982);
             this.groupBox3.TabIndex = 1;
             this.groupBox3.TabStop = false;
@@ -1172,7 +1173,7 @@
             // 
             this.nsct.Font = new System.Drawing.Font("Cambria", 13.2F, System.Drawing.FontStyle.Bold);
             this.nsct.Location = new System.Drawing.Point(628, 244);
-            this.nsct.Margin = new System.Windows.Forms.Padding(4);
+            this.nsct.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.nsct.Name = "nsct";
             this.nsct.Size = new System.Drawing.Size(312, 33);
             this.nsct.TabIndex = 24;
@@ -1182,7 +1183,7 @@
             // 
             this.aoct.Font = new System.Drawing.Font("Cambria", 13.2F, System.Drawing.FontStyle.Bold);
             this.aoct.Location = new System.Drawing.Point(1100, 244);
-            this.aoct.Margin = new System.Windows.Forms.Padding(4);
+            this.aoct.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.aoct.Name = "aoct";
             this.aoct.Size = new System.Drawing.Size(313, 33);
             this.aoct.TabIndex = 23;
@@ -1217,7 +1218,7 @@
             this.button11.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
             this.button11.ForeColor = System.Drawing.Color.DarkGreen;
             this.button11.Location = new System.Drawing.Point(1247, 308);
-            this.button11.Margin = new System.Windows.Forms.Padding(4);
+            this.button11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(167, 33);
             this.button11.TabIndex = 20;
@@ -1229,7 +1230,7 @@
             // 
             this.keyct.Font = new System.Drawing.Font("Cambria", 13.2F, System.Drawing.FontStyle.Bold);
             this.keyct.Location = new System.Drawing.Point(628, 309);
-            this.keyct.Margin = new System.Windows.Forms.Padding(4);
+            this.keyct.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.keyct.Name = "keyct";
             this.keyct.Size = new System.Drawing.Size(611, 33);
             this.keyct.TabIndex = 19;
@@ -1254,7 +1255,7 @@
             this.button12.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
             this.button12.ForeColor = System.Drawing.Color.DarkGreen;
             this.button12.Location = new System.Drawing.Point(1247, 363);
-            this.button12.Margin = new System.Windows.Forms.Padding(4);
+            this.button12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(167, 49);
             this.button12.TabIndex = 14;
@@ -1267,7 +1268,7 @@
             this.button13.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
             this.button13.ForeColor = System.Drawing.Color.DarkGreen;
             this.button13.Location = new System.Drawing.Point(1005, 363);
-            this.button13.Margin = new System.Windows.Forms.Padding(4);
+            this.button13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(167, 49);
             this.button13.TabIndex = 13;
@@ -1280,7 +1281,7 @@
             this.button14.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
             this.button14.ForeColor = System.Drawing.Color.DarkGreen;
             this.button14.Location = new System.Drawing.Point(747, 363);
-            this.button14.Margin = new System.Windows.Forms.Padding(4);
+            this.button14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(167, 49);
             this.button14.TabIndex = 12;
@@ -1293,7 +1294,7 @@
             this.button15.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
             this.button15.ForeColor = System.Drawing.Color.DarkGreen;
             this.button15.Location = new System.Drawing.Point(496, 363);
-            this.button15.Margin = new System.Windows.Forms.Padding(4);
+            this.button15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(167, 49);
             this.button15.TabIndex = 11;
@@ -1306,7 +1307,7 @@
             this.cbxclb.Font = new System.Drawing.Font("Cambria", 13.2F, System.Drawing.FontStyle.Bold);
             this.cbxclb.FormattingEnabled = true;
             this.cbxclb.Location = new System.Drawing.Point(628, 186);
-            this.cbxclb.Margin = new System.Windows.Forms.Padding(4);
+            this.cbxclb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbxclb.Name = "cbxclb";
             this.cbxclb.Size = new System.Drawing.Size(312, 34);
             this.cbxclb.TabIndex = 10;
@@ -1316,7 +1317,7 @@
             // 
             this.htct.Font = new System.Drawing.Font("Cambria", 13.2F, System.Drawing.FontStyle.Bold);
             this.htct.Location = new System.Drawing.Point(1100, 133);
-            this.htct.Margin = new System.Windows.Forms.Padding(4);
+            this.htct.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.htct.Name = "htct";
             this.htct.Size = new System.Drawing.Size(313, 33);
             this.htct.TabIndex = 9;
@@ -1326,7 +1327,7 @@
             // 
             this.qqct.Font = new System.Drawing.Font("Cambria", 13.2F, System.Drawing.FontStyle.Bold);
             this.qqct.Location = new System.Drawing.Point(1100, 187);
-            this.qqct.Margin = new System.Windows.Forms.Padding(4);
+            this.qqct.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.qqct.Name = "qqct";
             this.qqct.Size = new System.Drawing.Size(313, 33);
             this.qqct.TabIndex = 8;
@@ -1337,7 +1338,7 @@
             this.mact.BackColor = System.Drawing.SystemColors.Info;
             this.mact.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
             this.mact.Location = new System.Drawing.Point(628, 133);
-            this.mact.Margin = new System.Windows.Forms.Padding(4);
+            this.mact.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.mact.Name = "mact";
             this.mact.ReadOnly = true;
             this.mact.Size = new System.Drawing.Size(312, 34);
@@ -1397,7 +1398,7 @@
             this.tablect.BackgroundColor = System.Drawing.Color.White;
             this.tablect.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.tablect.Location = new System.Drawing.Point(-3, 462);
-            this.tablect.Margin = new System.Windows.Forms.Padding(4);
+            this.tablect.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tablect.Name = "tablect";
             this.tablect.RowHeadersWidth = 51;
             this.tablect.Size = new System.Drawing.Size(1905, 519);
@@ -1423,9 +1424,9 @@
             this.tabPage4.Controls.Add(this.label29);
             this.tabPage4.Controls.Add(this.tablemg);
             this.tabPage4.Location = new System.Drawing.Point(4, 35);
-            this.tabPage4.Margin = new System.Windows.Forms.Padding(4);
+            this.tabPage4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(4);
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage4.Size = new System.Drawing.Size(1919, 997);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Mùa giải";
@@ -1541,7 +1542,7 @@
             this.button16.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
             this.button16.ForeColor = System.Drawing.Color.DarkGreen;
             this.button16.Location = new System.Drawing.Point(1227, 177);
-            this.button16.Margin = new System.Windows.Forms.Padding(4);
+            this.button16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(157, 38);
             this.button16.TabIndex = 35;
@@ -1553,7 +1554,7 @@
             // 
             this.keymg.Font = new System.Drawing.Font("Cambria", 13.2F, System.Drawing.FontStyle.Bold);
             this.keymg.Location = new System.Drawing.Point(669, 181);
-            this.keymg.Margin = new System.Windows.Forms.Padding(4);
+            this.keymg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.keymg.Name = "keymg";
             this.keymg.Size = new System.Drawing.Size(536, 33);
             this.keymg.TabIndex = 34;
@@ -1578,7 +1579,7 @@
             this.button17.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
             this.button17.ForeColor = System.Drawing.Color.DarkGreen;
             this.button17.Location = new System.Drawing.Point(1227, 254);
-            this.button17.Margin = new System.Windows.Forms.Padding(4);
+            this.button17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(157, 43);
             this.button17.TabIndex = 32;
@@ -1591,7 +1592,7 @@
             this.button18.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
             this.button18.ForeColor = System.Drawing.Color.DarkGreen;
             this.button18.Location = new System.Drawing.Point(989, 254);
-            this.button18.Margin = new System.Windows.Forms.Padding(4);
+            this.button18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(157, 43);
             this.button18.TabIndex = 31;
@@ -1604,7 +1605,7 @@
             this.button19.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
             this.button19.ForeColor = System.Drawing.Color.DarkGreen;
             this.button19.Location = new System.Drawing.Point(747, 254);
-            this.button19.Margin = new System.Windows.Forms.Padding(4);
+            this.button19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(157, 43);
             this.button19.TabIndex = 30;
@@ -1617,7 +1618,7 @@
             this.button20.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
             this.button20.ForeColor = System.Drawing.Color.DarkGreen;
             this.button20.Location = new System.Drawing.Point(525, 254);
-            this.button20.Margin = new System.Windows.Forms.Padding(4);
+            this.button20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(157, 43);
             this.button20.TabIndex = 29;
@@ -1629,7 +1630,7 @@
             // 
             this.tenmg.Font = new System.Drawing.Font("Cambria", 13.2F, System.Drawing.FontStyle.Bold);
             this.tenmg.Location = new System.Drawing.Point(1052, 114);
-            this.tenmg.Margin = new System.Windows.Forms.Padding(4);
+            this.tenmg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tenmg.Name = "tenmg";
             this.tenmg.Size = new System.Drawing.Size(345, 33);
             this.tenmg.TabIndex = 28;
@@ -1640,7 +1641,7 @@
             this.mamg.BackColor = System.Drawing.SystemColors.Info;
             this.mamg.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
             this.mamg.Location = new System.Drawing.Point(669, 117);
-            this.mamg.Margin = new System.Windows.Forms.Padding(4);
+            this.mamg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.mamg.Name = "mamg";
             this.mamg.ReadOnly = true;
             this.mamg.Size = new System.Drawing.Size(169, 34);
@@ -1676,7 +1677,7 @@
             this.tablemg.BackgroundColor = System.Drawing.Color.White;
             this.tablemg.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.tablemg.Location = new System.Drawing.Point(8, 322);
-            this.tablemg.Margin = new System.Windows.Forms.Padding(4);
+            this.tablemg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tablemg.Name = "tablemg";
             this.tablemg.RowHeadersWidth = 51;
             this.tablemg.Size = new System.Drawing.Size(1903, 442);
@@ -1687,6 +1688,7 @@
             // tabPage5
             // 
             this.tabPage5.BackColor = System.Drawing.Color.LightCoral;
+            this.tabPage5.Controls.Add(this.gtd);
             this.tabPage5.Controls.Add(this.label33);
             this.tabPage5.Controls.Add(this.date);
             this.tabPage5.Controls.Add(this.label26);
@@ -1706,13 +1708,23 @@
             this.tabPage5.Controls.Add(this.label37);
             this.tabPage5.Controls.Add(this.tableltd);
             this.tabPage5.Location = new System.Drawing.Point(4, 35);
-            this.tabPage5.Margin = new System.Windows.Forms.Padding(4);
+            this.tabPage5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(4);
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage5.Size = new System.Drawing.Size(1919, 997);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Lịch thi đấu";
             this.tabPage5.Click += new System.EventHandler(this.tabPage5_Click);
+            // 
+            // gtd
+            // 
+            this.gtd.Font = new System.Drawing.Font("Cambria", 13.2F, System.Drawing.FontStyle.Bold);
+            this.gtd.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.gtd.Location = new System.Drawing.Point(1360, 256);
+            this.gtd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gtd.Name = "gtd";
+            this.gtd.Size = new System.Drawing.Size(179, 33);
+            this.gtd.TabIndex = 56;
             // 
             // label33
             // 
@@ -1730,18 +1742,19 @@
             // 
             this.date.Font = new System.Drawing.Font("Cambria", 13.2F, System.Drawing.FontStyle.Bold);
             this.date.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.date.Location = new System.Drawing.Point(1139, 256);
-            this.date.Margin = new System.Windows.Forms.Padding(4);
+            this.date.Location = new System.Drawing.Point(1146, 256);
+            this.date.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.date.Name = "date";
-            this.date.Size = new System.Drawing.Size(336, 33);
+            this.date.Size = new System.Drawing.Size(193, 33);
             this.date.TabIndex = 53;
+            this.date.Value = new System.DateTime(2023, 4, 25, 0, 0, 0, 0);
             this.date.ValueChanged += new System.EventHandler(this.date_ValueChanged);
             // 
             // label26
             // 
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
-            this.label26.Location = new System.Drawing.Point(976, 262);
+            this.label26.Location = new System.Drawing.Point(983, 260);
             this.label26.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(145, 27);
@@ -1753,10 +1766,10 @@
             // 
             this.cbxmg.Font = new System.Drawing.Font("Cambria", 13.2F, System.Drawing.FontStyle.Bold);
             this.cbxmg.FormattingEnabled = true;
-            this.cbxmg.Location = new System.Drawing.Point(621, 254);
-            this.cbxmg.Margin = new System.Windows.Forms.Padding(4);
+            this.cbxmg.Location = new System.Drawing.Point(553, 254);
+            this.cbxmg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbxmg.Name = "cbxmg";
-            this.cbxmg.Size = new System.Drawing.Size(336, 34);
+            this.cbxmg.Size = new System.Drawing.Size(408, 34);
             this.cbxmg.TabIndex = 51;
             this.cbxmg.SelectedIndexChanged += new System.EventHandler(this.cbxmg_SelectedIndexChanged);
             // 
@@ -1764,10 +1777,10 @@
             // 
             this.cbxsv.Font = new System.Drawing.Font("Cambria", 13.2F, System.Drawing.FontStyle.Bold);
             this.cbxsv.FormattingEnabled = true;
-            this.cbxsv.Location = new System.Drawing.Point(1139, 126);
-            this.cbxsv.Margin = new System.Windows.Forms.Padding(4);
+            this.cbxsv.Location = new System.Drawing.Point(1146, 126);
+            this.cbxsv.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbxsv.Name = "cbxsv";
-            this.cbxsv.Size = new System.Drawing.Size(336, 34);
+            this.cbxsv.Size = new System.Drawing.Size(393, 34);
             this.cbxsv.TabIndex = 50;
             this.cbxsv.SelectedIndexChanged += new System.EventHandler(this.cbxsv_SelectedIndexChanged);
             // 
@@ -1775,7 +1788,7 @@
             // 
             this.label34.AutoSize = true;
             this.label34.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
-            this.label34.Location = new System.Drawing.Point(976, 128);
+            this.label34.Location = new System.Drawing.Point(983, 128);
             this.label34.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(154, 27);
@@ -1787,10 +1800,10 @@
             // 
             this.cbx2.Font = new System.Drawing.Font("Cambria", 13.2F, System.Drawing.FontStyle.Bold);
             this.cbx2.FormattingEnabled = true;
-            this.cbx2.Location = new System.Drawing.Point(1139, 191);
-            this.cbx2.Margin = new System.Windows.Forms.Padding(4);
+            this.cbx2.Location = new System.Drawing.Point(1146, 191);
+            this.cbx2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbx2.Name = "cbx2";
-            this.cbx2.Size = new System.Drawing.Size(336, 34);
+            this.cbx2.Size = new System.Drawing.Size(393, 34);
             this.cbx2.TabIndex = 48;
             this.cbx2.SelectedIndexChanged += new System.EventHandler(this.cbx2_SelectedIndexChanged);
             // 
@@ -1798,7 +1811,7 @@
             // 
             this.label39.AutoSize = true;
             this.label39.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
-            this.label39.Location = new System.Drawing.Point(976, 194);
+            this.label39.Location = new System.Drawing.Point(983, 194);
             this.label39.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(145, 27);
@@ -1810,7 +1823,7 @@
             // 
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
-            this.label27.Location = new System.Drawing.Point(448, 262);
+            this.label27.Location = new System.Drawing.Point(380, 260);
             this.label27.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(102, 27);
@@ -1823,8 +1836,8 @@
             this.button22.BackColor = System.Drawing.Color.LightPink;
             this.button22.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
             this.button22.ForeColor = System.Drawing.Color.DarkGreen;
-            this.button22.Location = new System.Drawing.Point(1311, 327);
-            this.button22.Margin = new System.Windows.Forms.Padding(4);
+            this.button22.Location = new System.Drawing.Point(1329, 336);
+            this.button22.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(163, 49);
             this.button22.TabIndex = 38;
@@ -1836,8 +1849,8 @@
             // 
             this.button23.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
             this.button23.ForeColor = System.Drawing.Color.DarkGreen;
-            this.button23.Location = new System.Drawing.Point(1020, 327);
-            this.button23.Margin = new System.Windows.Forms.Padding(4);
+            this.button23.Location = new System.Drawing.Point(1038, 336);
+            this.button23.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(163, 49);
             this.button23.TabIndex = 37;
@@ -1849,8 +1862,8 @@
             // 
             this.button24.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
             this.button24.ForeColor = System.Drawing.Color.DarkGreen;
-            this.button24.Location = new System.Drawing.Point(751, 327);
-            this.button24.Margin = new System.Windows.Forms.Padding(4);
+            this.button24.Location = new System.Drawing.Point(769, 336);
+            this.button24.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button24.Name = "button24";
             this.button24.Size = new System.Drawing.Size(163, 49);
             this.button24.TabIndex = 36;
@@ -1862,8 +1875,8 @@
             // 
             this.button25.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
             this.button25.ForeColor = System.Drawing.Color.DarkGreen;
-            this.button25.Location = new System.Drawing.Point(453, 327);
-            this.button25.Margin = new System.Windows.Forms.Padding(4);
+            this.button25.Location = new System.Drawing.Point(471, 336);
+            this.button25.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button25.Name = "button25";
             this.button25.Size = new System.Drawing.Size(163, 49);
             this.button25.TabIndex = 35;
@@ -1875,10 +1888,10 @@
             // 
             this.cbx1.Font = new System.Drawing.Font("Cambria", 13.2F, System.Drawing.FontStyle.Bold);
             this.cbx1.FormattingEnabled = true;
-            this.cbx1.Location = new System.Drawing.Point(621, 191);
-            this.cbx1.Margin = new System.Windows.Forms.Padding(4);
+            this.cbx1.Location = new System.Drawing.Point(553, 191);
+            this.cbx1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbx1.Name = "cbx1";
-            this.cbx1.Size = new System.Drawing.Size(336, 34);
+            this.cbx1.Size = new System.Drawing.Size(408, 34);
             this.cbx1.TabIndex = 34;
             this.cbx1.SelectedIndexChanged += new System.EventHandler(this.cbx1_SelectedIndexChanged);
             // 
@@ -1886,11 +1899,11 @@
             // 
             this.maltd.BackColor = System.Drawing.SystemColors.Info;
             this.maltd.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
-            this.maltd.Location = new System.Drawing.Point(621, 126);
-            this.maltd.Margin = new System.Windows.Forms.Padding(4);
+            this.maltd.Location = new System.Drawing.Point(553, 126);
+            this.maltd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.maltd.Name = "maltd";
             this.maltd.ReadOnly = true;
-            this.maltd.Size = new System.Drawing.Size(336, 34);
+            this.maltd.Size = new System.Drawing.Size(408, 34);
             this.maltd.TabIndex = 31;
             this.maltd.TextChanged += new System.EventHandler(this.maltd_TextChanged);
             // 
@@ -1898,7 +1911,7 @@
             // 
             this.label35.AutoSize = true;
             this.label35.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
-            this.label35.Location = new System.Drawing.Point(448, 194);
+            this.label35.Location = new System.Drawing.Point(380, 194);
             this.label35.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(145, 27);
@@ -1910,7 +1923,7 @@
             // 
             this.label37.AutoSize = true;
             this.label37.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
-            this.label37.Location = new System.Drawing.Point(448, 132);
+            this.label37.Location = new System.Drawing.Point(380, 129);
             this.label37.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(165, 27);
@@ -1922,11 +1935,11 @@
             // 
             this.tableltd.BackgroundColor = System.Drawing.Color.White;
             this.tableltd.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.tableltd.Location = new System.Drawing.Point(3, 412);
-            this.tableltd.Margin = new System.Windows.Forms.Padding(4);
+            this.tableltd.Location = new System.Drawing.Point(3, 420);
+            this.tableltd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableltd.Name = "tableltd";
             this.tableltd.RowHeadersWidth = 51;
-            this.tableltd.Size = new System.Drawing.Size(1912, 581);
+            this.tableltd.Size = new System.Drawing.Size(1912, 574);
             this.tableltd.TabIndex = 25;
             this.tableltd.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tableltd_CellClick);
             this.tableltd.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tableltd_CellContentClick);
@@ -1954,9 +1967,9 @@
             this.tabPage6.Controls.Add(this.label44);
             this.tabPage6.Controls.Add(this.tablekq);
             this.tabPage6.Location = new System.Drawing.Point(4, 35);
-            this.tabPage6.Margin = new System.Windows.Forms.Padding(4);
+            this.tabPage6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(4);
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage6.Size = new System.Drawing.Size(1919, 997);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Thông tin trận đấu";
@@ -1967,7 +1980,7 @@
             this.label42.AutoSize = true;
             this.label42.Font = new System.Drawing.Font("Arial Rounded MT Bold", 28.2F);
             this.label42.ForeColor = System.Drawing.Color.Yellow;
-            this.label42.Location = new System.Drawing.Point(650, 33);
+            this.label42.Location = new System.Drawing.Point(651, 33);
             this.label42.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(619, 54);
@@ -1990,7 +2003,7 @@
             this.button29.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
             this.button29.ForeColor = System.Drawing.Color.DarkGreen;
             this.button29.Location = new System.Drawing.Point(800, 321);
-            this.button29.Margin = new System.Windows.Forms.Padding(4);
+            this.button29.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button29.Name = "button29";
             this.button29.Size = new System.Drawing.Size(160, 36);
             this.button29.TabIndex = 81;
@@ -2017,7 +2030,7 @@
             this.cbxcmg.Items.AddRange(new object[] {
             "Chọn mùa giải"});
             this.cbxcmg.Location = new System.Drawing.Point(421, 321);
-            this.cbxcmg.Margin = new System.Windows.Forms.Padding(4);
+            this.cbxcmg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbxcmg.Name = "cbxcmg";
             this.cbxcmg.Size = new System.Drawing.Size(348, 34);
             this.cbxcmg.TabIndex = 79;
@@ -2027,7 +2040,7 @@
             // 
             this.bt2.Font = new System.Drawing.Font("Cambria", 13.2F, System.Drawing.FontStyle.Bold);
             this.bt2.Location = new System.Drawing.Point(1003, 258);
-            this.bt2.Margin = new System.Windows.Forms.Padding(4);
+            this.bt2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bt2.Name = "bt2";
             this.bt2.Size = new System.Drawing.Size(348, 33);
             this.bt2.TabIndex = 78;
@@ -2038,7 +2051,7 @@
             this.matd.BackColor = System.Drawing.SystemColors.Info;
             this.matd.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
             this.matd.Location = new System.Drawing.Point(1003, 133);
-            this.matd.Margin = new System.Windows.Forms.Padding(4);
+            this.matd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.matd.Name = "matd";
             this.matd.ReadOnly = true;
             this.matd.Size = new System.Drawing.Size(348, 34);
@@ -2049,7 +2062,7 @@
             // 
             this.clb1.Font = new System.Drawing.Font("Cambria", 13.2F, System.Drawing.FontStyle.Bold);
             this.clb1.Location = new System.Drawing.Point(421, 196);
-            this.clb1.Margin = new System.Windows.Forms.Padding(4);
+            this.clb1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.clb1.Name = "clb1";
             this.clb1.Size = new System.Drawing.Size(348, 33);
             this.clb1.TabIndex = 76;
@@ -2059,7 +2072,7 @@
             // 
             this.clb2.Font = new System.Drawing.Font("Cambria", 13.2F, System.Drawing.FontStyle.Bold);
             this.clb2.Location = new System.Drawing.Point(1003, 192);
-            this.clb2.Margin = new System.Windows.Forms.Padding(4);
+            this.clb2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.clb2.Name = "clb2";
             this.clb2.Size = new System.Drawing.Size(348, 33);
             this.clb2.TabIndex = 75;
@@ -2069,7 +2082,7 @@
             // 
             this.bt1.Font = new System.Drawing.Font("Cambria", 13.2F, System.Drawing.FontStyle.Bold);
             this.bt1.Location = new System.Drawing.Point(421, 258);
-            this.bt1.Margin = new System.Windows.Forms.Padding(4);
+            this.bt1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bt1.Name = "bt1";
             this.bt1.Size = new System.Drawing.Size(348, 33);
             this.bt1.TabIndex = 74;
@@ -2127,7 +2140,7 @@
             this.button28.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
             this.button28.ForeColor = System.Drawing.Color.DarkGreen;
             this.button28.Location = new System.Drawing.Point(1003, 321);
-            this.button28.Margin = new System.Windows.Forms.Padding(4);
+            this.button28.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button28.Name = "button28";
             this.button28.Size = new System.Drawing.Size(348, 36);
             this.button28.TabIndex = 60;
@@ -2140,7 +2153,7 @@
             this.makq.BackColor = System.Drawing.SystemColors.Info;
             this.makq.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F);
             this.makq.Location = new System.Drawing.Point(421, 133);
-            this.makq.Margin = new System.Windows.Forms.Padding(4);
+            this.makq.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.makq.Name = "makq";
             this.makq.ReadOnly = true;
             this.makq.Size = new System.Drawing.Size(348, 34);
@@ -2176,7 +2189,7 @@
             this.tablekq.BackgroundColor = System.Drawing.Color.White;
             this.tablekq.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.tablekq.Location = new System.Drawing.Point(3, 414);
-            this.tablekq.Margin = new System.Windows.Forms.Padding(4);
+            this.tablekq.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tablekq.Name = "tablekq";
             this.tablekq.RowHeadersWidth = 51;
             this.tablekq.Size = new System.Drawing.Size(1912, 578);
@@ -2196,9 +2209,9 @@
             this.tabPage8.Controls.Add(this.button26);
             this.tabPage8.Controls.Add(this.textmg);
             this.tabPage8.Location = new System.Drawing.Point(4, 35);
-            this.tabPage8.Margin = new System.Windows.Forms.Padding(4);
+            this.tabPage8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Padding = new System.Windows.Forms.Padding(4);
+            this.tabPage8.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage8.Size = new System.Drawing.Size(1919, 997);
             this.tabPage8.TabIndex = 7;
             this.tabPage8.Text = "Kết quả trận đấu";
@@ -2221,6 +2234,7 @@
             this.flowLayoutPanel4.Controls.Add(this.pictureBox44);
             this.flowLayoutPanel4.Controls.Add(this.pictureBox45);
             this.flowLayoutPanel4.Location = new System.Drawing.Point(9, 649);
+            this.flowLayoutPanel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.flowLayoutPanel4.Name = "flowLayoutPanel4";
             this.flowLayoutPanel4.Size = new System.Drawing.Size(1899, 442);
             this.flowLayoutPanel4.TabIndex = 118;
@@ -2228,9 +2242,10 @@
             // pictureBox33
             // 
             this.pictureBox33.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox33.Image")));
-            this.pictureBox33.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox33.Location = new System.Drawing.Point(3, 2);
+            this.pictureBox33.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox33.Name = "pictureBox33";
-            this.pictureBox33.Size = new System.Drawing.Size(366, 274);
+            this.pictureBox33.Size = new System.Drawing.Size(365, 274);
             this.pictureBox33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox33.TabIndex = 1;
             this.pictureBox33.TabStop = false;
@@ -2238,9 +2253,10 @@
             // pictureBox34
             // 
             this.pictureBox34.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox34.Image")));
-            this.pictureBox34.Location = new System.Drawing.Point(375, 3);
+            this.pictureBox34.Location = new System.Drawing.Point(374, 2);
+            this.pictureBox34.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox34.Name = "pictureBox34";
-            this.pictureBox34.Size = new System.Drawing.Size(366, 274);
+            this.pictureBox34.Size = new System.Drawing.Size(365, 274);
             this.pictureBox34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox34.TabIndex = 2;
             this.pictureBox34.TabStop = false;
@@ -2248,9 +2264,10 @@
             // pictureBox35
             // 
             this.pictureBox35.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox35.Image")));
-            this.pictureBox35.Location = new System.Drawing.Point(747, 3);
+            this.pictureBox35.Location = new System.Drawing.Point(745, 2);
+            this.pictureBox35.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox35.Name = "pictureBox35";
-            this.pictureBox35.Size = new System.Drawing.Size(366, 274);
+            this.pictureBox35.Size = new System.Drawing.Size(365, 274);
             this.pictureBox35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox35.TabIndex = 3;
             this.pictureBox35.TabStop = false;
@@ -2258,9 +2275,10 @@
             // pictureBox36
             // 
             this.pictureBox36.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox36.Image")));
-            this.pictureBox36.Location = new System.Drawing.Point(1119, 3);
+            this.pictureBox36.Location = new System.Drawing.Point(1116, 2);
+            this.pictureBox36.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox36.Name = "pictureBox36";
-            this.pictureBox36.Size = new System.Drawing.Size(366, 274);
+            this.pictureBox36.Size = new System.Drawing.Size(365, 274);
             this.pictureBox36.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox36.TabIndex = 4;
             this.pictureBox36.TabStop = false;
@@ -2268,9 +2286,10 @@
             // pictureBox37
             // 
             this.pictureBox37.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox37.Image")));
-            this.pictureBox37.Location = new System.Drawing.Point(1491, 3);
+            this.pictureBox37.Location = new System.Drawing.Point(1487, 2);
+            this.pictureBox37.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox37.Name = "pictureBox37";
-            this.pictureBox37.Size = new System.Drawing.Size(366, 274);
+            this.pictureBox37.Size = new System.Drawing.Size(365, 274);
             this.pictureBox37.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox37.TabIndex = 5;
             this.pictureBox37.TabStop = false;
@@ -2278,9 +2297,10 @@
             // pictureBox38
             // 
             this.pictureBox38.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox38.Image")));
-            this.pictureBox38.Location = new System.Drawing.Point(3, 283);
+            this.pictureBox38.Location = new System.Drawing.Point(3, 280);
+            this.pictureBox38.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox38.Name = "pictureBox38";
-            this.pictureBox38.Size = new System.Drawing.Size(366, 274);
+            this.pictureBox38.Size = new System.Drawing.Size(365, 274);
             this.pictureBox38.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox38.TabIndex = 6;
             this.pictureBox38.TabStop = false;
@@ -2288,9 +2308,10 @@
             // pictureBox39
             // 
             this.pictureBox39.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox39.Image")));
-            this.pictureBox39.Location = new System.Drawing.Point(375, 283);
+            this.pictureBox39.Location = new System.Drawing.Point(374, 280);
+            this.pictureBox39.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox39.Name = "pictureBox39";
-            this.pictureBox39.Size = new System.Drawing.Size(366, 274);
+            this.pictureBox39.Size = new System.Drawing.Size(365, 274);
             this.pictureBox39.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox39.TabIndex = 7;
             this.pictureBox39.TabStop = false;
@@ -2298,9 +2319,10 @@
             // pictureBox40
             // 
             this.pictureBox40.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox40.Image")));
-            this.pictureBox40.Location = new System.Drawing.Point(747, 283);
+            this.pictureBox40.Location = new System.Drawing.Point(745, 280);
+            this.pictureBox40.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox40.Name = "pictureBox40";
-            this.pictureBox40.Size = new System.Drawing.Size(366, 274);
+            this.pictureBox40.Size = new System.Drawing.Size(365, 274);
             this.pictureBox40.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox40.TabIndex = 8;
             this.pictureBox40.TabStop = false;
@@ -2308,9 +2330,10 @@
             // pictureBox41
             // 
             this.pictureBox41.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox41.Image")));
-            this.pictureBox41.Location = new System.Drawing.Point(1119, 283);
+            this.pictureBox41.Location = new System.Drawing.Point(1116, 280);
+            this.pictureBox41.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox41.Name = "pictureBox41";
-            this.pictureBox41.Size = new System.Drawing.Size(366, 274);
+            this.pictureBox41.Size = new System.Drawing.Size(365, 274);
             this.pictureBox41.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox41.TabIndex = 9;
             this.pictureBox41.TabStop = false;
@@ -2318,9 +2341,10 @@
             // pictureBox42
             // 
             this.pictureBox42.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox42.Image")));
-            this.pictureBox42.Location = new System.Drawing.Point(1491, 283);
+            this.pictureBox42.Location = new System.Drawing.Point(1487, 280);
+            this.pictureBox42.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox42.Name = "pictureBox42";
-            this.pictureBox42.Size = new System.Drawing.Size(366, 274);
+            this.pictureBox42.Size = new System.Drawing.Size(365, 274);
             this.pictureBox42.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox42.TabIndex = 10;
             this.pictureBox42.TabStop = false;
@@ -2328,9 +2352,10 @@
             // pictureBox43
             // 
             this.pictureBox43.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox43.Image")));
-            this.pictureBox43.Location = new System.Drawing.Point(3, 563);
+            this.pictureBox43.Location = new System.Drawing.Point(3, 558);
+            this.pictureBox43.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox43.Name = "pictureBox43";
-            this.pictureBox43.Size = new System.Drawing.Size(366, 274);
+            this.pictureBox43.Size = new System.Drawing.Size(365, 274);
             this.pictureBox43.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox43.TabIndex = 11;
             this.pictureBox43.TabStop = false;
@@ -2338,9 +2363,10 @@
             // pictureBox44
             // 
             this.pictureBox44.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox44.Image")));
-            this.pictureBox44.Location = new System.Drawing.Point(375, 563);
+            this.pictureBox44.Location = new System.Drawing.Point(374, 558);
+            this.pictureBox44.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox44.Name = "pictureBox44";
-            this.pictureBox44.Size = new System.Drawing.Size(366, 274);
+            this.pictureBox44.Size = new System.Drawing.Size(365, 274);
             this.pictureBox44.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox44.TabIndex = 12;
             this.pictureBox44.TabStop = false;
@@ -2348,9 +2374,10 @@
             // pictureBox45
             // 
             this.pictureBox45.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox45.Image")));
-            this.pictureBox45.Location = new System.Drawing.Point(747, 563);
+            this.pictureBox45.Location = new System.Drawing.Point(745, 558);
+            this.pictureBox45.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox45.Name = "pictureBox45";
-            this.pictureBox45.Size = new System.Drawing.Size(366, 274);
+            this.pictureBox45.Size = new System.Drawing.Size(365, 274);
             this.pictureBox45.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox45.TabIndex = 13;
             this.pictureBox45.TabStop = false;
@@ -2390,8 +2417,8 @@
             this.button21.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
             this.button21.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button21.ForeColor = System.Drawing.Color.DarkGreen;
-            this.button21.Location = new System.Drawing.Point(1190, 106);
-            this.button21.Margin = new System.Windows.Forms.Padding(4);
+            this.button21.Location = new System.Drawing.Point(1189, 106);
+            this.button21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(132, 37);
             this.button21.TabIndex = 108;
@@ -2415,7 +2442,7 @@
             this.dataKQ.BackgroundColor = System.Drawing.Color.White;
             this.dataKQ.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataKQ.Location = new System.Drawing.Point(8, 242);
-            this.dataKQ.Margin = new System.Windows.Forms.Padding(4);
+            this.dataKQ.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataKQ.Name = "dataKQ";
             this.dataKQ.RowHeadersWidth = 51;
             this.dataKQ.Size = new System.Drawing.Size(1900, 410);
@@ -2426,8 +2453,8 @@
             this.cbxmgg.FormattingEnabled = true;
             this.cbxmgg.Items.AddRange(new object[] {
             "Chọn mùa giải"});
-            this.cbxmgg.Location = new System.Drawing.Point(814, 106);
-            this.cbxmgg.Margin = new System.Windows.Forms.Padding(4);
+            this.cbxmgg.Location = new System.Drawing.Point(813, 106);
+            this.cbxmgg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbxmgg.Name = "cbxmgg";
             this.cbxmgg.Size = new System.Drawing.Size(359, 34);
             this.cbxmgg.TabIndex = 106;
@@ -2436,8 +2463,8 @@
             // 
             this.button26.BackColor = System.Drawing.Color.MistyRose;
             this.button26.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button26.Location = new System.Drawing.Point(814, 165);
-            this.button26.Margin = new System.Windows.Forms.Padding(4);
+            this.button26.Location = new System.Drawing.Point(813, 165);
+            this.button26.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button26.Name = "button26";
             this.button26.Size = new System.Drawing.Size(359, 39);
             this.button26.TabIndex = 105;
@@ -2461,8 +2488,9 @@
             this.tabPage9.Controls.Add(this.pictureBox46);
             this.tabPage9.Controls.Add(this.ChangePass);
             this.tabPage9.Location = new System.Drawing.Point(4, 35);
+            this.tabPage9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage9.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage9.Size = new System.Drawing.Size(1919, 997);
             this.tabPage9.TabIndex = 9;
             this.tabPage9.Text = "Đổi mật khẩu";
@@ -2470,7 +2498,8 @@
             // pictureBox46
             // 
             this.pictureBox46.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox46.Image")));
-            this.pictureBox46.Location = new System.Drawing.Point(682, 11);
+            this.pictureBox46.Location = new System.Drawing.Point(683, 11);
+            this.pictureBox46.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox46.Name = "pictureBox46";
             this.pictureBox46.Size = new System.Drawing.Size(1231, 980);
             this.pictureBox46.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -2492,9 +2521,11 @@
             this.ChangePass.Controls.Add(this.label22);
             this.ChangePass.Controls.Add(this.label38);
             this.ChangePass.Controls.Add(this.label31);
-            this.ChangePass.Location = new System.Drawing.Point(6, 7);
+            this.ChangePass.Location = new System.Drawing.Point(5, 7);
+            this.ChangePass.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ChangePass.Name = "ChangePass";
-            this.ChangePass.Size = new System.Drawing.Size(662, 987);
+            this.ChangePass.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ChangePass.Size = new System.Drawing.Size(661, 987);
             this.ChangePass.TabIndex = 103;
             this.ChangePass.TabStop = false;
             this.ChangePass.Text = "ChangePass";
@@ -2503,6 +2534,7 @@
             // 
             this.pictureBox47.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox47.Image")));
             this.pictureBox47.Location = new System.Drawing.Point(137, 21);
+            this.pictureBox47.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox47.Name = "pictureBox47";
             this.pictureBox47.Size = new System.Drawing.Size(392, 215);
             this.pictureBox47.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -2542,7 +2574,7 @@
             // 
             this.label48.AutoSize = true;
             this.label48.Font = new System.Drawing.Font("Bahnschrift SemiBold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label48.Location = new System.Drawing.Point(210, 532);
+            this.label48.Location = new System.Drawing.Point(211, 532);
             this.label48.Name = "label48";
             this.label48.Size = new System.Drawing.Size(246, 36);
             this.label48.TabIndex = 116;
@@ -2551,7 +2583,8 @@
             // btn_ChangePass
             // 
             this.btn_ChangePass.BackColor = System.Drawing.Color.LightSalmon;
-            this.btn_ChangePass.Location = new System.Drawing.Point(182, 866);
+            this.btn_ChangePass.Location = new System.Drawing.Point(181, 866);
+            this.btn_ChangePass.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_ChangePass.Name = "btn_ChangePass";
             this.btn_ChangePass.Size = new System.Drawing.Size(288, 48);
             this.btn_ChangePass.TabIndex = 115;
@@ -2562,31 +2595,31 @@
             // txtbRe_Pass
             // 
             this.txtbRe_Pass.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F);
-            this.txtbRe_Pass.Location = new System.Drawing.Point(82, 802);
-            this.txtbRe_Pass.Margin = new System.Windows.Forms.Padding(4);
+            this.txtbRe_Pass.Location = new System.Drawing.Point(83, 802);
+            this.txtbRe_Pass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtbRe_Pass.Name = "txtbRe_Pass";
             this.txtbRe_Pass.PasswordChar = '*';
-            this.txtbRe_Pass.Size = new System.Drawing.Size(498, 42);
+            this.txtbRe_Pass.Size = new System.Drawing.Size(497, 42);
             this.txtbRe_Pass.TabIndex = 105;
             // 
             // txtbxNewPass
             // 
             this.txtbxNewPass.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F);
-            this.txtbxNewPass.Location = new System.Drawing.Point(82, 695);
-            this.txtbxNewPass.Margin = new System.Windows.Forms.Padding(4);
+            this.txtbxNewPass.Location = new System.Drawing.Point(83, 695);
+            this.txtbxNewPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtbxNewPass.Name = "txtbxNewPass";
             this.txtbxNewPass.PasswordChar = '*';
-            this.txtbxNewPass.Size = new System.Drawing.Size(498, 42);
+            this.txtbxNewPass.Size = new System.Drawing.Size(497, 42);
             this.txtbxNewPass.TabIndex = 104;
             // 
             // txtbPass
             // 
             this.txtbPass.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F);
-            this.txtbPass.Location = new System.Drawing.Point(82, 584);
-            this.txtbPass.Margin = new System.Windows.Forms.Padding(4);
+            this.txtbPass.Location = new System.Drawing.Point(83, 583);
+            this.txtbPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtbPass.Name = "txtbPass";
             this.txtbPass.PasswordChar = '*';
-            this.txtbPass.Size = new System.Drawing.Size(498, 42);
+            this.txtbPass.Size = new System.Drawing.Size(497, 42);
             this.txtbPass.TabIndex = 103;
             // 
             // label22
@@ -2595,7 +2628,7 @@
             this.label22.BackColor = System.Drawing.Color.MistyRose;
             this.label22.Font = new System.Drawing.Font("Cambria", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.ForeColor = System.Drawing.Color.Red;
-            this.label22.Location = new System.Drawing.Point(70, 436);
+            this.label22.Location = new System.Drawing.Point(69, 436);
             this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(525, 55);
@@ -2632,8 +2665,9 @@
             this.tabPage7.BackColor = System.Drawing.Color.Transparent;
             this.tabPage7.ForeColor = System.Drawing.Color.Black;
             this.tabPage7.Location = new System.Drawing.Point(4, 35);
+            this.tabPage7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage7.Size = new System.Drawing.Size(1919, 997);
             this.tabPage7.TabIndex = 8;
             this.tabPage7.Text = "Đăng xuất";
@@ -2645,7 +2679,7 @@
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1924, 1033);
             this.Controls.Add(this.tabControl1);
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Admin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Trang quản trị admin";
@@ -2923,5 +2957,6 @@
         private System.Windows.Forms.Label label48;
         private System.Windows.Forms.PictureBox pictureBox47;
         private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.DateTimePicker gtd;
     }
 }
